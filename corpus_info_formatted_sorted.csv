@@ -1,12 +1,12 @@
-Speaker ID,Time per Speaker,Audios per Speaker,Pronunciation,text_name,audio_url,text_url,total_seconds,total_seconds
-M_69,00h:00m:09s,1,Non-Native,,,,9
-F_22,00h:00m:17s,3,Native,,,,17
-M_70,00h:00m:35s,4,Non-Native,,,,35
-F_64,00h:00m:37s,4,Non-Native,,,,37
-M_71,00h:00m:42s,5,Non-Native,,,,42
-M_68,00h:00m:45s,5,Non-Native,,,,45
-F_52,00h:00m:54s,8,Native,,,,54
-F_74,00h:00m:56s,7,Non-Native,,,,56
+Speaker ID,Time per Speaker,Audios per Speaker,Pronunciation,text_name,audio_url,text_url,total_seconds
+M_69,00h:00m:09s,1,Non-Native,NOT_FOUND,,,9
+F_22,00h:00m:17s,3,Native,NOT_FOUND,,,17
+M_70,00h:00m:35s,4,Non-Native,Fabulas de Esopo 156,https://ia600702.us.archive.org/31/items/fabulas_esopo_06_librivox/fabulas_06_156_esopo.mp3,https://www.edyd.com/Fabulas/Esopo/E156Langostaysumadre.htm,35
+F_64,00h:00m:37s,4,Non-Native,Madrigal,https://ia802601.us.archive.org/35/items/100mejorespoesias_1502_librivox/cienmejorespoesias_013_menendezypelayo_128kb.mp3,https://www.poesi.as/gcet054-n01.htm,37
+M_71,00h:00m:42s,5,Non-Native,Fabulas de Esopo 175,https://ia600702.us.archive.org/31/items/fabulas_esopo_06_librivox/fabulas_06_175_esopo-cleaned.mp3,https://www.edyd.com/Fabulas/Esopo/E175Elancianoylamuerte.htm,42
+M_68,00h:00m:45s,5,Non-Native,La Luna y LA Muerte,https://ia801601.us.archive.org/2/items/poemas_1701_librivox/poemas_51_lorca_128kb.mp3,https://www.poetasandaluces.com/poema/858/,45
+F_52,00h:00m:54s,8,Native,Dos milagros,https://ia600202.us.archive.org/24/items/edad_de_oro_1001_librivox/edaddeoro_02_marti.mp3,https://es.wikisource.org/wiki/Dos_milagros_(Mart%C3%AD),54
+F_74,00h:00m:56s,7,Non-Native,A amado nervo,https://ia601608.us.archive.org/2/items/multilingual_poetry_018_1112_lv/spanish_aamadonervo_dario_ma.mp3,https://www.poesi.as/index606.htm,56
 F_66,00h:01m:00s,7,Non-Native,,,,60
 M_11,00h:01m:04s,12,Native,,,,64
 F_76,00h:01m:07s,7,Non-Native,,,,67
