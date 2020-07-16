@@ -14,7 +14,7 @@ LOGGER = logging.getLogger(__name__)
 
 
 def sent_tokenize(text):
-    return [x for x in re.split("\.|,|;|:|\n|!|¿|¡|\?|-|—", text) if x.replace(" ", "")]
+    return [x for x in re.split("\.|,|;|:|\n|!|¿|¡|\?|-|—|\(|\)|«|»", text) if x.replace(" ", "")]
 
 
 def create_text_files(text_folder, output_folder):

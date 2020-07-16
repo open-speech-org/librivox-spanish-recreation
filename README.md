@@ -30,7 +30,7 @@ All those files are stored in [original_text](original_text)
 We tried an automatic tokenization using nltk in the scripts [scripts/download_nltk_data.py](scripts/download_nltk_data.py) 
 and [scripts/tokenize_texts_nltk.py](scripts/tokenize_texts_nltk.py), however the tokenization didn't uses special characters 
 as `? ; !` and others leaving a too broad segmentation. For that reason we implement our custom splitter defined in [scripts/tokenize_texts.py](scripts/tokenize_texts.py)
-which uses the following expression to tokenize the texts `[x for x in re.split("\.|,|;|:|\n|!|¿|¡|\?|-|—", text) if x.replace(" ", "")]`
+which uses the following expression to tokenize the texts `[x for x in re.split("\.|,|;|:|\n|!|¿|¡|\?|-|—\(|\)", text) if x.replace(" ", "")]`
 
 All tokenized text are stored in [tokenized_text](tokenized_text) folder and each file has a format `number: text`. This
 number will be used as a sentence identifier in the following annotation process.

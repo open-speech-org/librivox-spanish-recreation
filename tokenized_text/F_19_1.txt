@@ -1,6 +1,6 @@
 0:El abanico
 1: Emilia Pardo Bazán
-2:Como deseaba escrutar el corazón de mi novia 
+2:Como deseaba escrutar el corazón de mi novia
 3:díjome Sandalio Aguilar
 4: en la terraza del Casino
 5: en la hora propicia a las confidencias
@@ -91,14 +91,14 @@
 90: Es chistosa su cara
 91:De cerca
 92: picado de viruelas
-93: con cada agujero así 
+93: con cada agujero así
 94:advertí
 95: porque a ningún novio le hace maldita la gracia que su novia ensalce a otro hombre
 96: Un tío más bruto que un cerrojo
 97: Si le zamarrean
 98: echa bellotas
 99:Bah
-100: De cerca creo que no habrá muchas ocasiones de contemplarle 
+100: De cerca creo que no habrá muchas ocasiones de contemplarle
 101:respondió Bertina
 102: riendo coquetamente
 103: penetrando mi intención con agudeza de mujer
@@ -191,7 +191,7 @@
 190: recién abierta
 191: tersas y blancas
 192: que jamás ha regado el rocío
-193: Es indudable que siente 
+193: Es indudable que siente
 194:pensé al pronto
 195: Es el horror lo que hace aletear su corazón y albear su tez
 196: Va a volverse y a decirme que no la traiga más a esta carnicería
@@ -215,7 +215,7 @@
 214: una galantería al público
 215: un rasgo de condescendencia del diestro
 216:De estas cosas feas
-217: lo mejor es defenderse con el abanico 
+217: lo mejor es defenderse con el abanico
 218:murmuró
 219: traduciendo a su manera la pregunta de mis ojos
 220: Porque no viéndolas
@@ -224,7 +224,7 @@
 223:Te basta a ti con el abanico
 224:respondí en el mismo tono confidencial y afable
 225:Claro que sí
-226: Ya no se ve ese asco 
+226: Ya no se ve ese asco
 227:afirmó
 228: acercando a su nariz el esenciero
 229: que con otros dijes minúsculos colgaba de su cadena de oro
@@ -237,7 +237,7 @@
 236: que ojos que no ven
 237: corazón que no quiebra
 238:Y yo no quiero un corazón que se regula por la materialidad de los ojos
-239:No estaba usted enamorado de Bertina 
+239:No estaba usted enamorado de Bertina
 240:objeté
 241: Si lo estuviese
 242: prescindiría de estos tiquis miquis
