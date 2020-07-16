@@ -19,8 +19,10 @@ def create_text_files(input_file_name, folder):
             if r[5]:
                 print("Creating file", r[0])
                 output_file_name = f"{r[0]}_1.txt"
-                output_file = open(os.path.join(folder, output_file_name), "w+")
-                output_file.close()
+                file_path = os.path.join(folder, output_file_name)
+                if not os.path.exists(file_path):
+                    output_file = open(file_path, "w+")
+                    output_file.close()
 
 
 if __name__ == "__main__":

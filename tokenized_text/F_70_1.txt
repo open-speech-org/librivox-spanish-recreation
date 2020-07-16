@@ -1,0 +1,9 @@
+0:La zorra y el cocodrilo
+1: Discutían un día la zorra y el cocodrilo sobre la nobleza de sus antepasados
+2: Por largo rato habló el cocodrilo acerca de la alcurnia de sus ancestros
+3: y terminó por decir que sus padres habían llegado a ser los guardianes del gimnasio
+4: No es necesario que me lo digas 
+5: replicó la zorra 
+6: las cualidades de tu piel demuestran  muy bien que desde hace muchos años te dedicas a los ejercicios de gimnasia
+7:  Recuerda siempre que lo que bien se ve
+8: no se puede ocultar con la mentira

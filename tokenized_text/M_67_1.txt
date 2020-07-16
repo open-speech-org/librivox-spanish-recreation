@@ -1,0 +1,7 @@
+0:El águila y la flecha
+1: Estaba asentada un águila en el pico de un peñasco esperando por la llegada de las liebres
+2: Mas la vio un cazador
+3: y lanzándole una flecha le  atravezó su cuerpo
+4: Viendo el águila entonces que la flecha estaba construída con plumas de su propia especie exclamó
+5: Qué tristeza terminar mis días por causa de mis  plumas 
+6: Más profundo es nuestro dolor cuando nos vencen con nuestras propias armas

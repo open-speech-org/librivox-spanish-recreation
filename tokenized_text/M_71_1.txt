@@ -1,0 +1,12 @@
+0:El anciano y la muerte
+1: Un día un anciano
+2: después de cortar leña
+3: la cargó a su espalda
+4: Largo era el camino que le quedaba
+5: Fatigado por la marcha
+6: soltó la carga y llamó a la Muerte
+7: Esta se presentó y le preguntó por qué la llamaba
+8: contestó el viejo
+9:Para que me ayudes a cargar la leña
+10: Por lo general
+11: el impulso por la vida es más fuerte que su propio dolor

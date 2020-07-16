@@ -1,0 +1,50 @@
+0:Romance del conde Fernán González
+1:Buen conde Fernán González
+2: el rey envía por vos
+3: que vayades a las cortes
+4: que se hacían en León
+5: que si vos allá vais
+6: conde
+7:	 5
+8: daros han buen galardón
+9: daros ha a Palenzuela
+10: y a Palencia la mayor
+11: daros ha a las nueve villas
+12: con ellas a Carrión
+13:	 10
+14: daros ha a Torquemada
+15: la torre de Mormojón
+16: Buen conde
+17: si allá no ides
+18: daros hían por traidor
+19: Allí respondiera el conde	 15
+20: y dijera esta razón
+21:Mensajero eres
+22: amigo
+23: no mereces culpa
+24: no
+25: yo no he miedo al rey
+26: ni a cuantos con él son
+27:	 20
+28: Villas y castillos tengo
+29: todos a mi mandar son
+30: de ellos me dejó mi padre
+31: de ellos me ganara yo
+32: los que me dejó el mi padre	 25
+33: poblélos de ricos hombres
+34: las que me ganara yo
+35: poblélas de labradores
+36: quien no tenía más que un buey
+37: dábale otro
+38: que eran dos
+39:	 30
+40: al que casaba su hija
+41: dole yo muy rico don
+42: cada día que amanece
+43: por mí hacen oración
+44: no la hacían por el rey
+45:	 35
+46: que no lo merece
+47: non
+48: él les puso muchos pechos
+49: y quitáraselos yo
