@@ -3,6 +3,7 @@ librivox_spanish_recreation_env
 .idea
 .~lock.corpus_info.csv#
 .~lock.corpus_info_formatted_sorted.csv#
+corpus_info/.~lock.corpus_info_formatted_sorted.csv#
 
 original_audios
 transformed_audios

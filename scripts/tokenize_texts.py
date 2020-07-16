@@ -1,3 +1,9 @@
+"""
+Usage:
+
+python tokenize_texts.py original_text tokenized_text
+"""
+
 import os
 import re
 import sys
@@ -15,16 +21,20 @@ def create_text_files(text_folder, output_folder):
 
     for text_file in os.listdir(text_folder):
         with open(os.path.join(text_folder, text_file)) as file:
-            print("Processing", text_file)
-            text = " ".join(file.readlines())
-            tokenized_text = sent_tokenize(text)
-            new_lines = list()
-            for index, sentence in enumerate(tokenized_text):
-                new_lines.append(f"{index}:{sentence}\n")
             new_file_path = os.path.join(output_folder, text_file)
-            output_file = open(new_file_path, "w+")
-            output_file.writelines(new_lines)
-            output_file.close()
+            if not os.path.exists(new_file_path):
+                print("Processing", text_file)
+                text = " ".join(file.readlines())
+                tokenized_text = sent_tokenize(text)
+                new_lines = list()
+                for index, sentence in enumerate(tokenized_text):
+                    new_lines.append(f"{index}:{sentence}\n")
+
+                output_file = open(new_file_path, "w+")
+                output_file.writelines(new_lines)
+                output_file.close()
+            else:
+                print("Skipping ", new_file_path)
 
 
 if __name__ == "__main__":
