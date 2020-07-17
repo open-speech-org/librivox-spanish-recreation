@@ -1,10 +1,11 @@
+
 0:El ogro
 1: En todo el barrio del Pacífico era conocido aquel endiablado carretero
 2: que alborotaba las calles con sus gritos y los furiosos chasquidos de su tralla
 3: Los vecinos de la gran casa en cuyo bajo vivía
-4: habían contribuido a formar su mala reputación… 
+4: habían contribuido a formar su mala reputación…
 5:Hombre más atroz y mal hablado
-6:… 
+6:…
 7:Y luego dicen los periódicos que la Policía detiene por blasfemos
 8: Pepe el carretero hacia méritos diariamente
 9: según algunos vecinos
@@ -31,7 +32,7 @@
 30: Acudían al del piso principal
 31: un viejo avaro que había alquilado la cochera a Pepe
 32: no encontrando mejor inquilino
-33:No hagan ustedes caso 
+33:No hagan ustedes caso
 34:contestaba
 35: Consideren que es un carretero
 36: y que para este oficio no se exigen exámenes de urbanidad
@@ -41,7 +42,7 @@
 40: Un poco de caridad
 41: señores
 42: A la mujer del maldito blasfemo la compadecían en toda la casa
-43:No lo crean ustedes 
+43:No lo crean ustedes
 44:decía
 45: riendo
 46: la pobre mujer
@@ -144,17 +145,17 @@
 143: Ni una nube en el cielo y un sol que sacaba chispas de las paredes y parecía reblandecer las losas de la aceras
 144:Arre
 145: valientes
-146:… 
+146:…
 147:Qué quieres tú
 148: Loca
 149: Y mientras arreaba sus machos
 150: alejaba con el pie a la blanca gata
 151: que maullaba dolorosamente
 152: intentando meterse bajo las ruedas
-153:Pero 
+153:Pero
 154:qué quieres
 155: maldita
-156:… 
+156:…
 157:Atrás
 158: que te va a reventar una rueda
 159: Y como quien hace una obra de caridad
@@ -195,7 +196,7 @@
 194: según había leído en uno de los papeles
 195: intentaba en vano mirar de frente al sol y lo amenazaba con el puño cerrado
 196:Asesino
-197: … 
+197: …
 198:Reaccionario
 199:Lástima que no estés más bajo el día de la gorda
 200: Cuando llegó al depósito de mercancías
@@ -262,7 +263,7 @@
 261: oliscando el hinchado pañuelo
 262: que se estremecía con palpitaciones de vida
 263:Toma
-264: perdida 
+264: perdida
 265:dijo
 266: jadeante por el calor y el cansancio de la carrera
 267: aquí tienes tus granujas
