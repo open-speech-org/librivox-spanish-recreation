@@ -1,184 +1,133 @@
 0:Salmos 120
-1: 1
-2: A JEHOVA llamé estando en angustia
-3: Y él me respondió
-4: 2
-5: Libra mi alma
-6: oh Jehová
-7: de labio mentiroso
-8: De la lengua fraudulenta
-9: 3
-10:Qué te dará
-11: ó qué te aprovechará
-12: Oh lengua engañosa
-13: 4
-14: Agudas saetas de valiente
-15: Con brasas de enebro
-16: 5
-17:Ay de mí
-18: que peregrino en Mesech
-19: Y habito entre las tiendas de Kedar
-20: 6
-21: Mucho se detiene mi alma Con los que aborrecen la paz
-22: 7
-23: Yo soy pacífico
-24: Mas ellos
-25: así que hablo
-26: me hacen guerra
-27: Salmos 121
-28: 1
-29: ALZARÉ mis ojos á los montes
-30: De donde vendrá mi socorro
-31: 2
-32: Mi socorro viene de Jehová
-33: Que hizo los cielos y la tierra
-34: 3
-35: No dará tu pie al resbaladero
-36: Ni se dormirá el que te guarda
-37: 4
-38: He aquí
-39: no se adormecerá ni dormirá El que guarda á Israel
-40: 5
-41: Jehová es tu guardador
-42: Jehová es tu sombra á tu mano derecha
-43: 6
-44: El sol no te fatigará de día
-45: Ni la luna de noche
-46: 7
-47: Jehová te guardará de todo mal
-48: El guardará tu alma
-49: 8
-50: Jehová guardará tu salida y tu entrada
-51: Desde ahora y para siempre
-52: Salmos 122
-53: 1
-54: YO me alegré con los que me decían
-55: A la casa de Jehová iremos
-56: 2
-57: Nuestros pies estuvieron En tus puertas
-58: oh Jerusalem
-59: 3
-60: Jerusalem
-61: que se ha edificado Como una ciudad que está bien unida entre sí
-62: 4
-63: Y allá subieron las tribus
-64: las tribus de JAH
-65: Conforme al testimonio dado á Israel
-66: Para alabar el nombre de Jehová
-67: 5
-68: Porque allá están las sillas del juicio
-69: Las sillas de la casa de David
-70: 6
-71: Pedid la paz de Jerusalem
-72: Sean prosperados los que te aman
-73: 7
-74: Haya paz en tu antemuro
-75: Y descanso en tus palacios
-76: 8
-77: Por amor de mis hermanos y mis compañeros Hablaré ahora paz de ti
-78: 9
-79: A causa de la casa de Jehová nuestro Dios
-80: Buscaré bien para ti
-81: Salmo 123
-82: 1
-83: A TI que habitas en los cielos
-84: Alcé mis ojos
-85: 2
-86: He aquí como los ojos de los siervos miran á la mano de sus señores
-87: Y como los ojos de la sierva á la mano de su señora
-88: Así nuestros ojos miran á Jehová nuestro Dios
-89: Hasta que haya misericordia de nosotros
-90: 3
-91: Ten misericordia de nosotros
-92: oh Jehová
-93: ten misericordia de nosotros
-94: Porque estamos muy hartos de menosprecio
-95: 4
-96: Muy harta está nuestra alma Del escarnio de los holgados
-97: Y del menosprecio de los soberbios
-98: Salmo 124
-99: 1
-100: A NO haber estado Jehová por nosotros
-101: Diga ahora Israel
-102: 2
-103: A no haber estado Jehová por nosotros
-104: Cuando se levantaron contra nosotros los hombres
-105: 3
-106: Vivos nos habrían entonces tragado
-107: Cuando se encendió su furor en nosotros
-108: 4
-109: Entonces nos habrían inundado las aguas
-110: Sobre nuestra alma hubiera pasado el torrente
-111: 5
-112: Hubieran entonces pasado sobre nuestra alma las aguas soberbias
-113: 6
-114: Bendito Jehová
-115: Que no nos dió por presa á sus dientes
-116: 7
-117: Nuestra alma escapó cual ave del lazo de los cazadores
-118: Quebróse el lazo
-119: y escapamos nosotros
-120: 8
-121: Nuestro socorro es en el nombre de Jehová
-122: Que hizo el cielo y la tierra
-123: Salmo 125
-124: 1
-125: LOS que confían en Jehová Son como el monte de Sión que no deslizará
-126: estará para siempre
-127: 2
-128: Como Jerusalem tiene montes alrededor de ella
-129: Así Jehová alrededor de su pueblo Desde ahora y para siempre
-130: 3
-131: Porque no reposará la vara de la impiedad sobre la suerte de los justos
-132: Porque no extiendan los justos sus manos á la iniquidad
-133: 4
-134: Haz bien
-135: oh Jehová
-136: á los buenos
-137: Y á los que son rectos en sus corazones
-138: 5
-139: Mas á los que se apartan tras sus perversidades
-140: Jehová los llevará con los que obran iniquidad
-141: Y paz sea sobre Israel
-142: Salmo 126
-143: CUANDO Jehová hiciere tornar la cautividad de Sión
-144: Seremos como los que sueñan
-145: 2
-146: Entonces nuestra boca se henchirá de risa
-147: Y nuestra lengua de alabanza
-148: Entonces dirán entre las gentes
-149: Grandes cosas ha hecho Jehová con éstos
-150: 3
-151: Grandes cosas ha hecho Jehová con nosotros
-152: Estaremos alegres
-153: 4
-154: Haz volver nuestra cautividad oh Jehová
-155: Como los arroyos en el austro
-156: 5
-157: Los que sembraron con lágrimas
-158: con regocijo segarán
-159: 6
-160: Irá andando y llorando el que lleva la preciosa simiente
-161: Mas volverá á venir con regocijo
-162: trayendo sus gavillas
-163: Salmo 127
-164: 1
-165: SI Jehová no edificare la casa
-166: En vano trabajan los que la edifican
-167: Si Jehová no guardare la ciudad
-168: En vano vela la guarda
-169: 2
-170: Por demás os es el madrugar á levantaros
-171: el veniros tarde á reposar
-172: El comer pan de dolores
-173: Pues que á su amado dará Dios el sueño
-174: 3
-175: He aquí
-176: heredad de Jehová son los hijos
-177: Cosa de estima el fruto del vientre
-178: 4
-179: Como saetas en mano del valiente
-180: Así son los hijos habidos en la juventud
-181: 5
-182: Bienaventurado el hombre que hinchió su aljaba de ellos
-183: No será avergonzado Cuando hablare con los enemigos en la puerta
+1: A JEHOVA llamé estando en angustia
+2: Y él me respondió
+3: Libra mi alma
+4: oh Jehová
+5: de labio mentiroso
+6: De la lengua fraudulenta
+7:Qué te dará
+8: ó qué te aprovechará
+9: Oh lengua engañosa
+10: Agudas saetas de valiente
+11: Con brasas de enebro
+12:Ay de mí
+13: que peregrino en Mesech
+14: Y habito entre las tiendas de Kedar
+15: Mucho se detiene mi alma Con los que aborrecen la paz
+16: Yo soy pacífico
+17: Mas ellos
+18: así que hablo
+19: me hacen guerra
+20: Salmos 121
+21: ALZARÉ mis ojos á los montes
+22: De donde vendrá mi socorro
+23: Mi socorro viene de Jehová
+24: Que hizo los cielos y la tierra
+25: No dará tu pie al resbaladero
+26: Ni se dormirá el que te guarda
+27: He aquí
+28: no se adormecerá ni dormirá El que guarda á Israel
+29: Jehová es tu guardador
+30: Jehová es tu sombra á tu mano derecha
+31: El sol no te fatigará de día
+32: Ni la luna de noche
+33: Jehová te guardará de todo mal
+34: El guardará tu alma
+35: Jehová guardará tu salida y tu entrada
+36: Desde ahora y para siempre
+37: Salmos 122
+38: YO me alegré con los que me decían
+39: A la casa de Jehová iremos
+40: Nuestros pies estuvieron En tus puertas
+41: oh Jerusalem
+42: Jerusalem
+43: que se ha edificado Como una ciudad que está bien unida entre sí
+44: Y allá subieron las tribus
+45: las tribus de JAH
+46: Conforme al testimonio dado á Israel
+47: Para alabar el nombre de Jehová
+48: Porque allá están las sillas del juicio
+49: Las sillas de la casa de David
+50: Pedid la paz de Jerusalem
+51: Sean prosperados los que te aman
+52: Haya paz en tu antemuro
+53: Y descanso en tus palacios
+54: Por amor de mis hermanos y mis compañeros Hablaré ahora paz de ti
+55: A causa de la casa de Jehová nuestro Dios
+56: Buscaré bien para ti
+57: Salmo 123
+58: A TI que habitas en los cielos
+59: Alcé mis ojos
+60: He aquí como los ojos de los siervos miran á la mano de sus señores
+61: Y como los ojos de la sierva á la mano de su señora
+62: Así nuestros ojos miran á Jehová nuestro Dios
+63: Hasta que haya misericordia de nosotros
+64: Ten misericordia de nosotros
+65: oh Jehová
+66: ten misericordia de nosotros
+67: Porque estamos muy hartos de menosprecio
+68: Muy harta está nuestra alma Del escarnio de los holgados
+69: Y del menosprecio de los soberbios
+70: Salmo 124
+71: A NO haber estado Jehová por nosotros
+72: Diga ahora Israel
+73: A no haber estado Jehová por nosotros
+74: Cuando se levantaron contra nosotros los hombres
+75: Vivos nos habrían entonces tragado
+76: Cuando se encendió su furor en nosotros
+77: Entonces nos habrían inundado las aguas
+78: Sobre nuestra alma hubiera pasado el torrente
+79: Hubieran entonces pasado sobre nuestra alma las aguas soberbias
+80: Bendito Jehová
+81: Que no nos dió por presa á sus dientes
+82: Nuestra alma escapó cual ave del lazo de los cazadores
+83: Quebróse el lazo
+84: y escapamos nosotros
+85: Nuestro socorro es en el nombre de Jehová
+86: Que hizo el cielo y la tierra
+87: Salmo 125
+88: LOS que confían en Jehová Son como el monte de Sión que no deslizará
+89: estará para siempre
+90: Como Jerusalem tiene montes alrededor de ella
+91: Así Jehová alrededor de su pueblo Desde ahora y para siempre
+92: Porque no reposará la vara de la impiedad sobre la suerte de los justos
+93: Porque no extiendan los justos sus manos á la iniquidad
+94: Haz bien
+95: oh Jehová
+96: á los buenos
+97: Y á los que son rectos en sus corazones
+98: Mas á los que se apartan tras sus perversidades
+99: Jehová los llevará con los que obran iniquidad
+100: Y paz sea sobre Israel
+101: Salmo 126
+102: CUANDO Jehová hiciere tornar la cautividad de Sión
+103: Seremos como los que sueñan
+104: Entonces nuestra boca se henchirá de risa
+105: Y nuestra lengua de alabanza
+106: Entonces dirán entre las gentes
+107: Grandes cosas ha hecho Jehová con éstos
+108: Grandes cosas ha hecho Jehová con nosotros
+109: Estaremos alegres
+110: Haz volver nuestra cautividad oh Jehová
+111: Como los arroyos en el austro
+112: Los que sembraron con lágrimas
+113: con regocijo segarán
+114: Irá andando y llorando el que lleva la preciosa simiente
+115: Mas volverá á venir con regocijo
+116: trayendo sus gavillas
+117: Salmo 127
+118: SI Jehová no edificare la casa
+119: En vano trabajan los que la edifican
+120: Si Jehová no guardare la ciudad
+121: En vano vela la guarda
+122: Por demás os es el madrugar á levantaros
+123: el veniros tarde á reposar
+124: El comer pan de dolores
+125: Pues que á su amado dará Dios el sueño
+126: He aquí
+127: heredad de Jehová son los hijos
+128: Cosa de estima el fruto del vientre
+129: Como saetas en mano del valiente
+130: Así son los hijos habidos en la juventud
+131: Bienaventurado el hombre que hinchió su aljaba de ellos
+132: No será avergonzado Cuando hablare con los enemigos en la puerta

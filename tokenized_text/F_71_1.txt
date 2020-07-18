@@ -1,4 +1,4 @@
-0: Las zorras a orillas del río Meandro
+    0: Las zorras a orillas del río Meandro
 1: Se reunieron un día las zorras a orillas del río Meandro con el fin de calmar su sed
 2: pero el río estaba muy turbulento
 3: y aunque se estimulaban unas a otras
@@ -12,7 +12,7 @@
 11: y las compañeras
 12: siguiéndola desde la orilla le gritaban
 13: No nos dejes hermana
-14: vuelve y dinos cómo  podremos beber agua sin peligro 
+14: vuelve y dinos cómo  podremos beber agua sin peligro
 15: Pero la imprudente
 16: arrastrada sin remedio alguno
 17: y tratando de ocultar su cercana muerte
