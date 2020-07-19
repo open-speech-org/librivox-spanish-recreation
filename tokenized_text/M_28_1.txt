@@ -5,46 +5,41 @@
 4: que se hacían en León
 5: que si vos allá vais
 6: conde
-7:	 5
-8: daros han buen galardón
-9: daros ha a Palenzuela
-10: y a Palencia la mayor
-11: daros ha a las nueve villas
-12: con ellas a Carrión
-13:	 10
-14: daros ha a Torquemada
-15: la torre de Mormojón
-16: Buen conde
-17: si allá no ides
-18: daros hían por traidor
-19: Allí respondiera el conde	 15
-20: y dijera esta razón
-21:Mensajero eres
-22: amigo
-23: no mereces culpa
-24: no
-25: yo no he miedo al rey
-26: ni a cuantos con él son
-27:	 20
-28: Villas y castillos tengo
-29: todos a mi mandar son
-30: de ellos me dejó mi padre
-31: de ellos me ganara yo
-32: los que me dejó el mi padre	 25
-33: poblélos de ricos hombres
-34: las que me ganara yo
-35: poblélas de labradores
-36: quien no tenía más que un buey
-37: dábale otro
-38: que eran dos
-39:	 30
-40: al que casaba su hija
-41: dole yo muy rico don
-42: cada día que amanece
-43: por mí hacen oración
-44: no la hacían por el rey
-45:	 35
-46: que no lo merece
-47: non
-48: él les puso muchos pechos
-49: y quitáraselos yo
+7: daros han buen galardón
+8: daros ha a Palenzuela
+9: y a Palencia la mayor
+10: daros ha a las nueve villas
+11: con ellas a Carrión
+12: daros ha a Torquemada
+13: la torre de Mormojón
+14: Buen conde
+15: si allá no ides
+16: daros hían por traidor
+17: Allí respondiera el conde
+18: y dijera esta razón
+19:Mensajero eres
+20: amigo
+21: no mereces culpa
+22: no
+23: yo no he miedo al rey
+24: ni a cuantos con él son
+25: Villas y castillos tengo
+26: todos a mi mandar son
+27: de ellos me dejó mi padre
+28: de ellos me ganara yo
+29: los que me dejó el mi padre
+30: poblélos de ricos hombres
+31: las que me ganara yo
+32: poblélas de labradores
+33: quien no tenía más que un buey
+34: dábale otro
+35: que eran dos
+36: al que casaba su hija
+37: dole yo muy rico don
+38: cada día que amanece
+39: por mí hacen oración
+40: no la hacían por el rey
+41: que no lo merece
+42: non
+43: él les puso muchos pechos
+44: y quitáraselos yo
