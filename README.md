@@ -43,6 +43,10 @@ column in [corpus_info/corpus_info_formatted_sorted.csv](corpus_info/corpus_info
 
 And we transform all audios using [sox](http://sox.sourceforge.net/) and [scripts/transform_mp3_to_wav.bash](scripts/transform_mp3_to_wav.bash)
 
+## Segmentation
+
+Al segmented files are stored in the [annotations](annotations) folder, where each file corresponds to
+a recording. Files are stored in [TextGrid format](https://www.fon.hum.uva.nl/praat/manual/TextGrid_file_formats.html)
 
 
 ## Troubleshooting
