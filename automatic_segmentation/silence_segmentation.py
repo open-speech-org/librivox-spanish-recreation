@@ -16,15 +16,37 @@ from openspeechlib.segmentation import silence_segmentation
 LOGGER = logging.getLogger(__name__)
 
 
+def write_text_grid_from_segmentation(segmentation, text_name, output_folder, xmin=0, xmax=0, audio_frequency=16000):
+    tg = textgrids.TextGrid()
+    tg.xmin = xmin
+    tg.xmax = xmax
+    tier = textgrids.Tier()
+    tg[text_name] = tier
+    for xmin, xmax in segmentation:
+        tier.append(
+            textgrids.Interval(
+                "",
+                xmin/audio_frequency,
+                xmax/audio_frequency
+            )
+        )
+    tg.write(os.path.join(output_folder, f"automatic_{text_name}.TextGrid"))
+
 
 def create_automatic_segmentation(wav_folder, output_folder):
 
     for wav_file in os.listdir(wav_folder):
         frequency, signal = wavfile.read(os.path.join(wav_folder, wav_file))
         LOGGER.debug(f"Processing {wav_file}: frequency: {frequency}")
-        segmentation = silence_segmentation.silence_segmentation(signal, frequency)
-
-
+        segmentation = silence_segmentation.silence_segmentation(signal, frequency, 0.3)
+        write_text_grid_from_segmentation(
+            segmentation,
+            wav_file.replace(".wav", ""),
+            output_folder,
+            xmax=signal.shape[-1] / frequency,
+            audio_frequency=frequency
+        )
+        break
 
 if __name__ == "__main__":
     print(sys.argv)
