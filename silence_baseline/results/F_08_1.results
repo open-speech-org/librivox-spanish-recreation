@@ -1,0 +1,6 @@
+Results
+silences_out = 9
+silence_only_in_automatic = 3
+silence_in_both = 14
+total_automatic_silences = 26
+total_spoken_segments = 15
