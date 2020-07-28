@@ -19,6 +19,7 @@ CONSTANT_SIL = "sil"
 
 
 def evaluate_single_file(manual_folder, automatic_folder, results_folder, file_name):
+    LOGGER.debug(f"Processing {file_name}")
     manual_file = textgrids.TextGrid(os.path.join(manual_folder, file_name))
     automatic_file = textgrids.TextGrid(os.path.join(automatic_folder, f"automatic_{file_name}"))
     base_name = file_name.replace(".TextGrid", "")
@@ -61,20 +62,40 @@ silence_only_in_automatic = {silence_only_in_automatic}
 silence_in_both = {silence_in_both}
 total_automatic_silences = {total_automatic_silences}
 total_spoken_segments = {total_spoken_segments}
+(silence_in_both / total_spoken_segments) * 100 = {(silence_in_both / (total_spoken_segments or 1)) * 100 }
 """
     results_file = open(os.path.join(results_folder, f"{base_name}.results"), "w+")
     results_file.write(results)
     results_file.close()
 
-
-
+    return silences_out, silence_only_in_automatic, silence_in_both, total_automatic_silences, total_spoken_segments
 
 
 def evaluate_folder(manual_folder, automatic_folder, results_folder):
-
+    total_silences_out = 0
+    total_silence_only_in_automatic = 0
+    total_silence_in_both = 0
+    total_total_automatic_silences = 0
+    total_total_spoken_segments = 0
     for file_name in os.listdir(manual_folder):
-        evaluate_single_file(manual_folder, automatic_folder, results_folder, file_name)
-        break
+        silences_out, silence_only_in_automatic, silence_in_both, total_automatic_silences, total_spoken_segments = evaluate_single_file(manual_folder, automatic_folder, results_folder, file_name)
+        total_silences_out += silences_out
+        total_silence_only_in_automatic += silence_only_in_automatic
+        total_silence_in_both += silence_in_both
+        total_total_automatic_silences += total_automatic_silences
+        total_total_spoken_segments += total_spoken_segments
+    results = f"""Results
+silences_out = {total_silences_out}
+silence_only_in_automatic = {total_silence_only_in_automatic}
+silence_in_both = {total_silence_in_both}
+total_automatic_silences = {total_total_automatic_silences}
+total_spoken_segments = {total_total_spoken_segments}
+(silence_in_both / total_spoken_segments) * 100 = {(total_silence_in_both / total_total_spoken_segments) * 100} 
+    """
+    results_file = open(os.path.join(results_folder, f"global.results"), "w+")
+    results_file.write(results)
+    results_file.close()
+
 
 
 if __name__ == "__main__":
@@ -83,6 +104,9 @@ if __name__ == "__main__":
         evaluate_single_file(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
         exit(0)
     if len(sys.argv) != 4:
-        LOGGER.error("Only 2 arg accepted")
+        LOGGER.error("Only 3 arg accepted")
         exit(1)
+    console_log = logging.StreamHandler()
+    LOGGER.addHandler(console_log)
+    LOGGER.setLevel(logging.DEBUG)
     evaluate_folder(sys.argv[1], sys.argv[2], sys.argv[3])
