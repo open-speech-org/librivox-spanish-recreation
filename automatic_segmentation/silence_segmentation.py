@@ -11,6 +11,7 @@ import logging
 from scipy.io import wavfile
 import textgrids
 from openspeechlib.segmentation import silence_segmentation
+from openspeechlib.segmentation.silence_segmentation import skip_adjacent_segmentator
 
 
 LOGGER = logging.getLogger(__name__)
@@ -22,21 +23,37 @@ def write_text_grid_from_segmentation(segmentation, text_name, output_folder, xm
     tg.xmax = xmax
     tier = textgrids.Tier()
     tg[text_name] = tier
+    previous_segment = 0
     for xmin, xmax in segmentation:
         tier.append(
             textgrids.Interval(
                 "",
+                previous_segment / audio_frequency,
+                xmin / audio_frequency
+            )
+        )
+        tier.append(
+            textgrids.Interval(
+                "sil",
                 xmin/audio_frequency,
                 xmax/audio_frequency
             )
         )
+        previous_segment = xmax
     tg.write(os.path.join(output_folder, f"automatic_{text_name}.TextGrid"))
 
 
 def evaluate_for_single_file(wav_folder, output_folder, wav_file):
     frequency, signal = wavfile.read(os.path.join(wav_folder, wav_file))
     LOGGER.debug(f"Processing {wav_file}: frequency: {frequency}")
-    segmentation = silence_segmentation.silence_segmentation(signal, frequency, 0.15)
+    segmentation = silence_segmentation.silence_segmentation(
+        signal,
+        frequency,
+        0.05,
+        segmentator=skip_adjacent_segmentator,
+    )
+    print(len(segmentation))
+    print(segmentation)
     write_text_grid_from_segmentation(
         segmentation,
         wav_file.replace(".wav", ""),

@@ -10,3 +10,5 @@ transformed_audios
 transformed_audios_drop
 
 pseudo_fixed_annotations
+
+useful_local_scripts.bash
