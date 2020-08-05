@@ -58,8 +58,9 @@ def evaluate_single_file(manual_folder, automatic_folder, results_folder, file_n
                     total_spoken_segments += 1
     results = f"""Results
 silences_out = {silences_out}
-silence_only_in_automatic = {silence_only_in_automatic}
-silence_in_both = {silence_in_both}
+silence_only_in_automatic = {silence_only_in_automatic}  # False Positives
+silence_in_both = {silence_in_both}  # True Positives
+excluded_silences = {total_spoken_segments - silence_in_both}  # False negatives
 total_automatic_silences = {total_automatic_silences}
 total_spoken_segments = {total_spoken_segments}
 (silence_in_both / total_spoken_segments) * 100 = {(silence_in_both / (total_spoken_segments or 1)) * 100 }
