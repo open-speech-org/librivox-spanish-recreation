@@ -1,0 +1,78 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 88.32
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "F_69_1"
+        xmin = 0
+        xmax = 88.32
+        intervals: size = 16
+            intervals [1]:
+                xmin = 0.0
+                xmax = 1.66
+                text = ""
+            intervals [2]:
+                xmin = 1.66
+                xmax = 6.76
+                text = "sil"
+            intervals [3]:
+                xmin = 6.76
+                xmax = 6.82
+                text = ""
+            intervals [4]:
+                xmin = 6.82
+                xmax = 12.59
+                text = "sil"
+            intervals [5]:
+                xmin = 12.59
+                xmax = 12.63
+                text = ""
+            intervals [6]:
+                xmin = 12.63
+                xmax = 13.91
+                text = "sil"
+            intervals [7]:
+                xmin = 13.91
+                xmax = 14.0
+                text = ""
+            intervals [8]:
+                xmin = 14.0
+                xmax = 29.54
+                text = "sil"
+            intervals [9]:
+                xmin = 29.54
+                xmax = 29.55
+                text = ""
+            intervals [10]:
+                xmin = 29.55
+                xmax = 39.84
+                text = "sil"
+            intervals [11]:
+                xmin = 39.84
+                xmax = 40.2
+                text = ""
+            intervals [12]:
+                xmin = 40.2
+                xmax = 42.57
+                text = "sil"
+            intervals [13]:
+                xmin = 42.57
+                xmax = 43.24
+                text = ""
+            intervals [14]:
+                xmin = 43.24
+                xmax = 43.83
+                text = "sil"
+            intervals [15]:
+                xmin = 43.83
+                xmax = 44.39
+                text = ""
+            intervals [16]:
+                xmin = 44.39
+                xmax = 45.79
+                text = "sil"

@@ -1,0 +1,118 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 942.6024489795918
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "F_30_1"
+        xmin = 0
+        xmax = 942.6024489795918
+        intervals: size = 26
+            intervals [1]:
+                xmin = 0.0
+                xmax = 18.94
+                text = ""
+            intervals [2]:
+                xmin = 18.94
+                xmax = 37.84
+                text = "sil"
+            intervals [3]:
+                xmin = 37.84
+                xmax = 37.87
+                text = ""
+            intervals [4]:
+                xmin = 37.87
+                xmax = 92.78
+                text = "sil"
+            intervals [5]:
+                xmin = 92.78
+                xmax = 92.79
+                text = ""
+            intervals [6]:
+                xmin = 92.79
+                xmax = 149.66
+                text = "sil"
+            intervals [7]:
+                xmin = 149.66
+                xmax = 149.67
+                text = ""
+            intervals [8]:
+                xmin = 149.67
+                xmax = 196.41
+                text = "sil"
+            intervals [9]:
+                xmin = 196.41
+                xmax = 196.52
+                text = ""
+            intervals [10]:
+                xmin = 196.52
+                xmax = 588.29
+                text = "sil"
+            intervals [11]:
+                xmin = 588.29
+                xmax = 588.38
+                text = ""
+            intervals [12]:
+                xmin = 588.38
+                xmax = 589.37
+                text = "sil"
+            intervals [13]:
+                xmin = 589.37
+                xmax = 589.39
+                text = ""
+            intervals [14]:
+                xmin = 589.39
+                xmax = 636.62
+                text = "sil"
+            intervals [15]:
+                xmin = 636.62
+                xmax = 636.68
+                text = ""
+            intervals [16]:
+                xmin = 636.68
+                xmax = 711.77
+                text = "sil"
+            intervals [17]:
+                xmin = 711.77
+                xmax = 711.78
+                text = ""
+            intervals [18]:
+                xmin = 711.78
+                xmax = 727.13
+                text = "sil"
+            intervals [19]:
+                xmin = 727.13
+                xmax = 727.15
+                text = ""
+            intervals [20]:
+                xmin = 727.15
+                xmax = 794.88
+                text = "sil"
+            intervals [21]:
+                xmin = 794.88
+                xmax = 795.84
+                text = ""
+            intervals [22]:
+                xmin = 795.84
+                xmax = 816.03
+                text = "sil"
+            intervals [23]:
+                xmin = 816.03
+                xmax = 816.05
+                text = ""
+            intervals [24]:
+                xmin = 816.05
+                xmax = 821.11
+                text = "sil"
+            intervals [25]:
+                xmin = 821.11
+                xmax = 821.15
+                text = ""
+            intervals [26]:
+                xmin = 821.15
+                xmax = 902.34
+                text = "sil"

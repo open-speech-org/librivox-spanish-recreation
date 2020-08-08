@@ -65,3 +65,22 @@ To install sox, check your software package manager. If using ubuntu
 sudo apt install sox
 sudo apt install libsox-fmt-mp3
 ```
+
+
+### Notes
+
+Segmento audio y encuentro silencio cuando hay un signo de puntuacion 
+True Positive Silencio corresponde con signo de puntuacion
+False Negatives No hay silencio pero si hay signo de puntuacion
+Falsos positivos hay silencio en la grabacion pero no hay signo de puntuacion
+True Negative 
+
+Negativo Senal
+Posirivo Silencio
+
+
+Regularizar a 0.01 threshold
+
+5 microcorpus a 20 grabacion
+
+Particion a nivel de segmentos por corpus, agarrando los de mas de 10

@@ -79,12 +79,15 @@ def evaluate_folder(manual_folder, automatic_folder, results_folder):
     total_total_automatic_silences = 0
     total_total_spoken_segments = 0
     for file_name in os.listdir(manual_folder):
-        silences_out, silence_only_in_automatic, silence_in_both, total_automatic_silences, total_spoken_segments = evaluate_single_file(manual_folder, automatic_folder, results_folder, file_name)
-        total_silences_out += silences_out
-        total_silence_only_in_automatic += silence_only_in_automatic
-        total_silence_in_both += silence_in_both
-        total_total_automatic_silences += total_automatic_silences
-        total_total_spoken_segments += total_spoken_segments
+        try:
+            silences_out, silence_only_in_automatic, silence_in_both, total_automatic_silences, total_spoken_segments = evaluate_single_file(manual_folder, automatic_folder, results_folder, file_name)
+            total_silences_out += silences_out
+            total_silence_only_in_automatic += silence_only_in_automatic
+            total_silence_in_both += silence_in_both
+            total_total_automatic_silences += total_automatic_silences
+            total_total_spoken_segments += total_spoken_segments
+        except FileNotFoundError as e:
+            LOGGER.error(e)
     results = f"""Results
 silences_out = {total_silences_out}
 silence_only_in_automatic = {total_silence_only_in_automatic}
