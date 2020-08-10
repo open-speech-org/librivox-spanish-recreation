@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 50.285714285714285
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "F_54_1"
+        xmin = 0.0
+        xmax = 50.285714285714285
+        intervals: size = 13
+            intervals [1]:
+                xmin = 0.0
+                xmax = 3.9326984126984126
+                text = ""
+            intervals [2]:
+                xmin = 3.9326984126984126
+                xmax = 13.067755102040817
+                text = ""
+            intervals [3]:
+                xmin = 13.067755102040817
+                xmax = 15.528027210884353
+                text = ""
+            intervals [4]:
+                xmin = 15.528027210884353
+                xmax = 17.618526077097506
+                text = "0"
+            intervals [5]:
+                xmin = 17.618526077097506
+                xmax = 24.850294784580502
+                text = "1"
+            intervals [6]:
+                xmin = 24.850294784580502
+                xmax = 27.27138321995465
+                text = "2"
+            intervals [7]:
+                xmin = 27.27138321995465
+                xmax = 28.16541950113379
+                text = "3"
+            intervals [8]:
+                xmin = 28.16541950113379
+                xmax = 29.478752834467123
+                text = "4"
+            intervals [9]:
+                xmin = 29.478752834467123
+                xmax = 30.30356009070295
+                text = "5"
+            intervals [10]:
+                xmin = 30.30356009070295
+                xmax = 31.960816326530615
+                text = "6"
+            intervals [11]:
+                xmin = 31.960816326530615
+                xmax = 36.69192743764172
+                text = "7"
+            intervals [12]:
+                xmin = 36.69192743764172
+                xmax = 38.47140589569161
+                text = "8"
+            intervals [13]:
+                xmin = 38.47140589569161
+                xmax = 50.285714285714285
+                text = "9"

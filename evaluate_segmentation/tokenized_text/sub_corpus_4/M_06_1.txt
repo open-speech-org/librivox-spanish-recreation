@@ -1,0 +1,16 @@
+0:La zorra con el rabo cortado
+1: Una zorra a la cual un cepo le había cortado la cola
+2: estaba tan avergonzada
+3: que consideraba su vida horrorosa y humillante
+4: por lo cual decidió que la solución sería aconsejar a las demás hermanas cortarse también la cola
+5: para así disimular con la igualdad general
+6: su defecto personal
+7: Reunió entonces a todas sus compañeras
+8: diciéndoles que la cola no sólo era un feo agregado
+9: sino además una carga sin razón
+10: Pero una de ellas tomó la palabra y dijo
+11: Oye hermana
+12: si no fuera por tu conveniencia de ahora
+13: nos darías en realidad este consejo 
+14: Cuídate de los que dan consejo en busca de su propio beneficio
+15: y no por hacer realmente un bien

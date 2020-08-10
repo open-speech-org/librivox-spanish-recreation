@@ -1,0 +1,16 @@
+0:El lobo y el asno
+1: Un lobo fue elegido rey entre sus congéneres y decretó una ley ordenando que lo que cada uno capturase en la caza
+2: lo pusiera en común y lo repartiese por partes iguales entre todos
+3: de esta manera ya no tendrían los lobos que devorarse unos a otros en épocas de hambre
+4: Pero en eso lo escuchó un asno que estaba por ahí cerca
+5: y moviendo sus orejas le dijo
+6: Magnífica idea ha brotado de tu corazón
+7: pero 
+8: Por qué has escondido todo tu botín en tu cueva 
+9: Llévalo a tu comunidad y repártelo también
+10: como lo has decretado
+11: El lobo
+12: descubierto y confundido
+13: derogó su ley
+14: Si alguna vez llegas a tener poder de legislar
+15: sé el primero en cumplir tus propias leyes

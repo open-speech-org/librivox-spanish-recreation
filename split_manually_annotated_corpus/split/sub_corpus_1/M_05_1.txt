@@ -1,9 +1,0 @@
-0:El ruiseñor y la golondrina
-1: Invitó la golondrina a un ruiseñor a construir su nido como lo hacía ella
-2: bajo el techo de las casas de los hombres
-3: y a vivir con ellos como ya lo hacía ella
-4: Pero el ruiseñor repuso
-5: No quiero revivir el recuerdo de mis antiguos males
-6: y por eso prefiero alojarme en lugares apartados
-7: Los bienes y los males recibidos
-8: siempre quedan atados a las circunstancias que los rodearon

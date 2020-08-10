@@ -1,0 +1,14 @@
+0:El lobo y la cabra
+1: Encontró un lobo a una cabra que pastaba a la orilla de un precipicio
+2: Como no podía llegar a donde estaba ella le dijo
+3: Oye amiga
+4: mejor baja pues ahí te puedes caer
+5: Además
+6: mira este prado donde estoy yo
+7: está bien verde y crecido
+8: Pero la cabra le dijo
+9: Bien sé que no me invitas a comer a mí
+10: sino a tí mismo
+11: siendo yo tu plato
+12: Conoce siempre a los malvados
+13: para que no te atrapen con sus engaños

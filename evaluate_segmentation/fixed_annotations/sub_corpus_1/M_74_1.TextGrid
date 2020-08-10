@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 56.05877551020408
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "M_74_1"
+        xmin = 0.0
+        xmax = 56.05877551020408
+        intervals: size = 13
+            intervals [1]:
+                xmin = 0.0
+                xmax = 13.405714285714286
+                text = ""
+            intervals [2]:
+                xmin = 13.405714285714286
+                xmax = 15.065555555555555
+                text = "0"
+            intervals [3]:
+                xmin = 15.065555555555555
+                xmax = 20.030476190476193
+                text = "1"
+            intervals [4]:
+                xmin = 20.030476190476193
+                xmax = 22.86793650793651
+                text = "2"
+            intervals [5]:
+                xmin = 22.86793650793651
+                xmax = 25.605827664399094
+                text = "3"
+            intervals [6]:
+                xmin = 25.605827664399094
+                xmax = 32.55301587301587
+                text = "4"
+            intervals [7]:
+                xmin = 32.55301587301587
+                xmax = 34.86978460127769
+                text = "5"
+            intervals [8]:
+                xmin = 34.86978460127769
+                xmax = 36.377755102040815
+                text = "6"
+            intervals [9]:
+                xmin = 36.377755102040815
+                xmax = 37.0528798185941
+                text = "7"
+            intervals [10]:
+                xmin = 37.0528798185941
+                xmax = 38.2656462585034
+                text = "8"
+            intervals [11]:
+                xmin = 38.2656462585034
+                xmax = 41.89328798185941
+                text = "9"
+            intervals [12]:
+                xmin = 41.89328798185941
+                xmax = 48.71541950113379
+                text = "10"
+            intervals [13]:
+                xmin = 48.71541950113379
+                xmax = 56.05877551020408
+                text = "11"

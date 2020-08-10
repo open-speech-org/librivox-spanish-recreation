@@ -8,7 +8,7 @@ import sys
 
 import logging
 
-
+import numpy as np
 import textgrids
 
 
@@ -78,6 +78,7 @@ def evaluate_folder(manual_folder, automatic_folder, results_folder):
     total_silence_in_both = 0
     total_total_automatic_silences = 0
     total_total_spoken_segments = 0
+    precisions = list()
     for file_name in os.listdir(manual_folder):
         try:
             silences_out, silence_only_in_automatic, silence_in_both, total_automatic_silences, total_spoken_segments = evaluate_single_file(manual_folder, automatic_folder, results_folder, file_name)
@@ -87,6 +88,7 @@ def evaluate_folder(manual_folder, automatic_folder, results_folder):
                 total_silence_in_both += silence_in_both
                 total_total_automatic_silences += total_automatic_silences
                 total_total_spoken_segments += total_spoken_segments
+                precisions.append((silence_in_both / (total_spoken_segments or 1)) * 100)
         except FileNotFoundError as e:
             LOGGER.error(e)
     results = f"""Results
@@ -100,6 +102,8 @@ total_spoken_segments = {total_total_spoken_segments}
     results_file = open(os.path.join(results_folder, f"global.results"), "w+")
     results_file.write(results)
     results_file.close()
+
+    np.savetxt(os.path.join(results_folder, "precisions.txt"), np.asarray(precisions), delimiter=",")
 
 
 
