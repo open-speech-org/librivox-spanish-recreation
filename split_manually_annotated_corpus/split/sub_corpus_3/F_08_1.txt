@@ -1,0 +1,21 @@
+0:Soneto
+1: En segura pobreza vive Eumelo
+2: Con dulce libertad
+3: y le mantienen
+4: Las simples aves
+5: que engañadas vienen
+6: A los lazos y liga sin recelo
+7: Por mejor suerte no importuna al cielo
+8: Ni se muestra envidioso a la que tienen
+9: Los que con ansia de subir sostienen
+10: En flacas alas el incierto vuelo
+11: Muerte tras luengos años no le espanta
+12: Ni la recibe con indigna queja
+13: Mas con sosiego grato y faz amiga
+14: Al fin
+15: muriendo con pobreza tanta
+16: Ricos juzga sus hijos
+17: pues les deja
+18: La libertad
+19: las aves y la liga
+

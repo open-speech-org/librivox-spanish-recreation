@@ -1,0 +1,261 @@
+0:La Declaración Universal de Derechos Humanos
+1: Preámbulo
+2: Considerando que la libertad
+3: la justicia y la paz en el mundo tienen por base el reconocimiento de la dignidad intrínseca y de los derechos iguales e inalienables de todos los miembros de la familia humana
+4: Considerando que el desconocimiento y el menosprecio de los derechos humanos han originado actos de barbarie ultrajantes para la conciencia de la humanidad
+5: y que se ha proclamado
+6: como la aspiración más elevada del hombre
+7: el advenimiento de un mundo en que los seres humanos
+8: liberados del temor y de la miseria
+9: disfruten de la libertad de palabra y de la libertad de creencias
+10: Considerando esencial que los derechos humanos sean protegidos por un régimen de Derecho
+11: a fin de que el hombre no se vea compelido al supremo recurso de la rebelión contra la tiranía y la opresión
+12: Considerando también esencial promover el desarrollo de relaciones amistosas entre las naciones
+13: Considerando que los pueblos de las Naciones Unidas han reafirmado en la Carta su fe en los derechos fundamentales del hombre
+14: en la dignidad y el valor de la persona humana y en la igualdad de derechos de hombres y mujeres
+15: y se han declarado resueltos a promover el progreso social y a elevar el nivel de vida dentro de un concepto más amplio de la libertad
+16: Considerando que los Estados Miembros se han comprometido a asegurar
+17: en cooperación con la Organización de las Naciones Unidas
+18: el respeto universal y efectivo a los derechos y libertades fundamentales del hombre
+19: y
+20: Considerando que una concepción común de estos derechos y libertades es de la mayor importancia para el pleno cumplimiento de dicho compromiso
+21: LA ASAMBLEA GENERAL proclama la presente DECLARACIÓN UNIVERSAL DE DERECHOS HUMANOS como ideal común por el que todos los pueblos y naciones deben esforzarse
+22: a fin de que tanto los individuos como las instituciones
+23: inspirándose constantemente en ella
+24: promuevan
+25: mediante la enseñanza y la educación
+26: el respeto a estos derechos y libertades
+27: y aseguren
+28: por medidas progresivas de carácter nacional e internacional
+29: su reconocimiento y aplicación universales y efectivos
+30: tanto entre los pueblos de los Estados Miembros como entre los de los territorios colocados bajo su jurisdicción
+31: Artículo 1
+32: Todos los seres humanos nacen libres e iguales en dignidad y derechos y
+33: dotados como están de razón y conciencia
+34: deben comportarse fraternalmente los unos con los otros
+35: Artículo 2
+36: Toda persona tiene todos los derechos y libertades proclamados en esta Declaración
+37: sin distinción alguna de raza
+38: color
+39: sexo
+40: idioma
+41: religión
+42: opinión política o de cualquier otra índole
+43: origen nacional o social
+44: posición económica
+45: nacimiento o cualquier otra condición
+46: Además
+47: no se hará distinción alguna fundada en la condición política
+48: jurídica o internacional del país o territorio de cuya jurisdicción dependa una persona
+49: tanto si se trata de un país independiente
+50: como de un territorio bajo administración fiduciaria
+51: no autónomo o sometido a cualquier otra limitación de soberanía
+52: Artículo 3
+53: Todo individuo tiene derecho a la vida
+54: a la libertad y a la seguridad de su persona
+55: Artículo 4
+56: Nadie estará sometido a esclavitud ni a servidumbre
+57: la esclavitud y la trata de esclavos están prohibidas en todas sus formas
+58: Artículo 5
+59: Nadie será sometido a torturas ni a penas o tratos crueles
+60: inhumanos o degradantes
+61: Artículo 6
+62: Todo ser humano tiene derecho
+63: en todas partes
+64: al reconocimiento de su personalidad jurídica
+65: Artículo 7
+66: Todos son iguales ante la ley y tienen
+67: sin distinción
+68: derecho a igual protección de la ley
+69: Todos tienen derecho a igual protección contra toda discriminación que infrinja esta Declaración y contra toda provocación a tal discriminación
+70: Artículo 8
+71: Toda persona tiene derecho a un recurso efectivo ante los tribunales nacionales competentes
+72: que la ampare contra actos que violen sus derechos fundamentales reconocidos por la constitución o por la ley
+73: Artículo 9
+74: Nadie podrá ser arbitrariamente detenido
+75: preso ni desterrado
+76: Artículo 10
+77: Toda persona tiene derecho
+78: en condiciones de plena igualdad
+79: a ser oída públicamente y con justicia por un tribunal independiente e imparcial
+80: para la determinación de sus derechos y obligaciones o para el examen de cualquier acusación contra ella en materia penal
+81: Artículo 11
+82: 1
+83: Toda persona acusada de delito tiene derecho a que se presuma su inocencia mientras no se pruebe su culpabilidad
+84: conforme a la ley y en juicio público en el que se le hayan asegurado todas las garantías necesarias para su defensa
+85: 2
+86: Nadie será condenado por actos u omisiones que en el momento de cometerse no fueron delictivos según el Derecho nacional o internacional
+87: Tampoco se impondrá pena más grave que la aplicable en el momento de la comisión del delito
+88: Artículo 12
+89: Nadie será objeto de injerencias arbitrarias en su vida privada
+90: su familia
+91: su domicilio o su correspondencia
+92: ni de ataques a su honra o a su reputación
+93: Toda persona tiene derecho a la protección de la ley contra tales injerencias o ataques
+94: Artículo 13
+95: 1
+96: Toda persona tiene derecho a circular libremente y a elegir su residencia en el territorio de un Estado
+97: 2
+98: Toda persona tiene derecho a salir de cualquier país
+99: incluso del propio
+100: y a regresar a su país
+101: Artículo 14
+102: 1
+103: En caso de persecución
+104: toda persona tiene derecho a buscar asilo
+105: y a disfrutar de él
+106: en cualquier país
+107: 2
+108: Este derecho no podrá ser invocado contra una acción judicial realmente originada por delitos comunes o por actos opuestos a los propósitos y principios de las Naciones Unidas
+109: Artículo 15
+110: 1
+111: Toda persona tiene derecho a una nacionalidad
+112: 2
+113: A nadie se privará arbitrariamente de su nacionalidad ni del derecho a cambiar de nacionalidad
+114: Artículo 16
+115: 1
+116: Los hombres y las mujeres
+117: a partir de la edad núbil
+118: tienen derecho
+119: sin restricción alguna por motivos de raza
+120: nacionalidad o religión
+121: a casarse y fundar una familia
+122: y disfrutarán de iguales derechos en cuanto al matrimonio
+123: durante el matrimonio y en caso de disolución del matrimonio
+124: 2
+125: Sólo mediante libre y pleno consentimiento de los futuros esposos podrá contraerse el matrimonio
+126: 3
+127: La familia es el elemento natural y fundamental de la sociedad y tiene derecho a la protección de la sociedad y del Estado
+128: Artículo 17
+129: 1
+130: Toda persona tiene derecho a la propiedad
+131: individual y colectivamente
+132: 2
+133: Nadie será privado arbitrariamente de su propiedad
+134: Artículo 18
+135: Toda persona tiene derecho a la libertad de pensamiento
+136: de conciencia y de religión
+137: este derecho incluye la libertad de cambiar de religión o de creencia
+138: así como la libertad de manifestar su religión o su creencia
+139: individual y colectivamente
+140: tanto en público como en privado
+141: por la enseñanza
+142: la práctica
+143: el culto y la observancia
+144: Artículo 19
+145: Todo individuo tiene derecho a la libertad de opinión y de expresión
+146: este derecho incluye el de no ser molestado a causa de sus opiniones
+147: el de investigar y recibir informaciones y opiniones
+148: y el de difundirlas
+149: sin limitación de fronteras
+150: por cualquier medio de expresión
+151: Artículo 20
+152: 1
+153: Toda persona tiene derecho a la libertad de reunión y de asociación pacíficas
+154: 2
+155: Nadie podrá ser obligado a pertenecer a una asociación
+156: Artículo 21
+157: 1
+158: Toda persona tiene derecho a participar en el gobierno de su país
+159: directamente o por medio de representantes libremente escogidos
+160: 2
+161: Toda persona tiene el derecho de acceso
+162: en condiciones de igualdad
+163: a las funciones públicas de su país
+164: 3
+165: La voluntad del pueblo es la base de la autoridad del poder público
+166: esta voluntad se expresará mediante elecciones auténticas que habrán de celebrarse periódicamente
+167: por sufragio universal e igual y por voto secreto u otro procedimiento equivalente que garantice la libertad del voto
+168: Artículo 22
+169: Toda persona
+170: como miembro de la sociedad
+171: tiene derecho a la seguridad social
+172: y a obtener
+173: mediante el esfuerzo nacional y la cooperación internacional
+174: habida cuenta de la organización y los recursos de cada Estado
+175: la satisfacción de los derechos económicos
+176: sociales y culturales
+177: indispensables a su dignidad y al libre desarrollo de su personalidad
+178: Artículo 23
+179: 1
+180: Toda persona tiene derecho al trabajo
+181: a la libre elección de su trabajo
+182: a condiciones equitativas y satisfactorias de trabajo y a la protección contra el desempleo
+183: 2
+184: Toda persona tiene derecho
+185: sin discriminación alguna
+186: a igual salario por trabajo igual
+187: 3
+188: Toda persona que trabaja tiene derecho a una remuneración equitativa y satisfactoria
+189: que le asegure
+190: así como a su familia
+191: una existencia conforme a la dignidad humana y que será completada
+192: en caso necesario
+193: por cualesquiera otros medios de protección social
+194: 4
+195: Toda persona tiene derecho a fundar sindicatos y a sindicarse para la defensa de sus intereses
+196: Artículo 24
+197: Toda persona tiene derecho al descanso
+198: al disfrute del tiempo libre
+199: a una limitación razonable de la duración del trabajo y a vacaciones periódicas pagadas
+200: Artículo 25
+201: 1
+202: Toda persona tiene derecho a un nivel de vida adecuado que le asegure
+203: así como a su familia
+204: la salud y el bienestar
+205: y en especial la alimentación
+206: el vestido
+207: la vivienda
+208: la asistencia médica y los servicios sociales necesarios
+209: tiene asimismo derecho a los seguros en caso de desempleo
+210: enfermedad
+211: invalidez
+212: viudez
+213: vejez u otros casos de pérdida de sus medios de subsistencia por circunstancias independientes de su voluntad
+214: 2
+215: La maternidad y la infancia tienen derecho a cuidados y asistencia especiales
+216: Todos los niños
+217: nacidos de matrimonio o fuera de matrimonio
+218: tienen derecho a igual protección social
+219: Artículo 26
+220: 1
+221: Toda persona tiene derecho a la educación
+222: La educación debe ser gratuita
+223: al menos en lo concerniente a la instrucción elemental y fundamental
+224: La instrucción elemental será obligatoria
+225: La instrucción técnica y profesional habrá de ser generalizada
+226: el acceso a los estudios superiores será igual para todos
+227: en función de los méritos respectivos
+228: 2
+229: La educación tendrá por objeto el pleno desarrollo de la personalidad humana y el fortalecimiento del respeto a los derechos humanos y a las libertades fundamentales
+230: favorecerá la comprensión
+231: la tolerancia y la amistad entre todas las naciones y todos los grupos étnicos o religiosos
+232: y promoverá el desarrollo de las actividades de las Naciones Unidas para el mantenimiento de la paz
+233: 3
+234: Los padres tendrán derecho preferente a escoger el tipo de educación que habrá de darse a sus hijos
+235: Artículo 27
+236: 1
+237: Toda persona tiene derecho a tomar parte libremente en la vida cultural de la comunidad
+238: a gozar de las artes y a participar en el progreso científico y en los beneficios que de él resulten
+239: 2
+240: Toda persona tiene derecho a la protección de los intereses morales y materiales que le correspondan por razón de las producciones científicas
+241: literarias o artísticas de que sea autora
+242: Artículo 28
+243: Toda persona tiene derecho a que se establezca un orden social e internacional en el que los derechos y libertades proclamados en esta Declaración se hagan plenamente efectivos
+244: Artículo 29
+245: 1
+246: Toda persona tiene deberes respecto a la comunidad
+247: puesto que sólo en ella puede desarrollar libre y plenamente su personalidad
+248: 2
+249: En el ejercicio de sus derechos y en el disfrute de sus libertades
+250: toda persona estará solamente sujeta a las limitaciones establecidas por la ley con el único fin de asegurar el reconocimiento y el respeto de los derechos y libertades de los demás
+251: y de satisfacer las justas exigencias de la moral
+252: del orden público y del bienestar general en una sociedad democrática
+253: 3
+254: Estos derechos y libertades no podrán
+255: en ningún caso
+256: ser ejercidos en oposición a los propósitos y principios de las Naciones Unidas
+257: Artículo 30
+258: Nada en esta Declaración podrá interpretarse en el sentido de que confiere derecho alguno al Estado
+259: a un grupo o a una persona
+260: para emprender y desarrollar actividades o realizar actos tendientes a la supresión de cualquiera de los derechos y libertades proclamados en esta Declaración

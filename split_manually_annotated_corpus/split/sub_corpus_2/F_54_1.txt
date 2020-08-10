@@ -1,0 +1,9 @@
+0:La zorra y la leona
+1: Reprochaba una zorra a una leona el hecho de  que siempre sólo pariese a un pequeñuelo
+2: Y le  contestó la leona
+3:Sí
+4: uno solo
+5: tienes razón
+6:pero un señor león 
+7: No midas el valor de las cosas por su cantidad
+8: sino por su virtud

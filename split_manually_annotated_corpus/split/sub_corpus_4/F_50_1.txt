@@ -1,0 +1,47 @@
+0:Romance del prisionero
+1: Por el mes era de mayo
+2: cuando hace la calor
+3: cuando canta la calandria
+4: y responde el ruiseñor
+5: cuando los enamorados	 5
+6: van a servir al amor
+7: sino yo
+8: triste cuitado
+9: que vivo en esta prisión
+10: que ni sé cuándo es de día
+11: ni cuándo las noches son
+12:	 10
+13: sino por una avecilla
+14: que me cantaba al albor
+15: Matómela un ballestero
+16:Dele Dios mal galardón
+17: Cabellos de mi cabeza	 15
+18: lléganme al corvejón
+19: los cabellos de mi barba
+20: por manteles tengo yo
+21: las uñas de las mis manos
+22: por cuchillo tajador
+23:	 20
+24: Si lo hacía el buen rey
+25: hácelo como señor
+26: si lo hace el carcelero
+27: hácelo como traidor
+28: Mas quien ahora me diese	 25
+29: un pájaro hablador
+30: siquiera fuese calandria
+31: o tordico
+32: o ruiseñor
+33: criado fuese entre damas
+34: y avezado a la razón
+35:	 30
+36: que me lleve una embajada
+37: a mi esposa Leonor
+38: que me envíe una empanada
+39: no de trucha
+40: ni salmón
+41: sino de una lima sorda	 35
+42: y de un pico tajador
+43: la lima para los hierros
+44: y el pico para el torreón
+45: Oídolo había el rey
+46: mandóle quitar la prisión

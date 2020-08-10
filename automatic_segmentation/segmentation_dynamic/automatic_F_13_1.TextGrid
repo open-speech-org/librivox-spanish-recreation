@@ -11,4 +11,68 @@ item []:
         name = "F_13_1"
         xmin = 0
         xmax = 43.67673469387755
-        intervals: size = 0
+        intervals: size = 16
+            intervals [1]:
+                xmin = 0.0
+                xmax = 2.19
+                text = ""
+            intervals [2]:
+                xmin = 2.19
+                xmax = 2.93
+                text = "sil"
+            intervals [3]:
+                xmin = 2.93
+                xmax = 6.26
+                text = ""
+            intervals [4]:
+                xmin = 6.26
+                xmax = 7.29
+                text = "sil"
+            intervals [5]:
+                xmin = 7.29
+                xmax = 12.41
+                text = ""
+            intervals [6]:
+                xmin = 12.41
+                xmax = 13.07
+                text = "sil"
+            intervals [7]:
+                xmin = 13.07
+                xmax = 15.49
+                text = ""
+            intervals [8]:
+                xmin = 15.49
+                xmax = 16.33
+                text = "sil"
+            intervals [9]:
+                xmin = 16.33
+                xmax = 18.8
+                text = ""
+            intervals [10]:
+                xmin = 18.8
+                xmax = 19.45
+                text = "sil"
+            intervals [11]:
+                xmin = 19.45
+                xmax = 25.3
+                text = ""
+            intervals [12]:
+                xmin = 25.3
+                xmax = 26.08
+                text = "sil"
+            intervals [13]:
+                xmin = 26.08
+                xmax = 28.86
+                text = ""
+            intervals [14]:
+                xmin = 28.86
+                xmax = 29.44
+                text = "sil"
+            intervals [15]:
+                xmin = 29.44
+                xmax = 32.37
+                text = ""
+            intervals [16]:
+                xmin = 32.37
+                xmax = 33.1
+                text = "sil"

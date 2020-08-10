@@ -8,6 +8,7 @@ import sys
 
 import logging
 
+import numpy as np
 from scipy.io import wavfile
 import textgrids
 from openspeechlib.segmentation.silence_segmentation import (
@@ -28,6 +29,7 @@ def write_text_grid_from_segmentation(segmentation, text_name, output_folder, xm
     tier = textgrids.Tier()
     tg[text_name] = tier
     previous_segment = 0
+    print(f"tokens: {len(segmentation)}")
     for xmin, xmax in segmentation:
         tier.append(
             textgrids.Interval(
@@ -47,7 +49,14 @@ def write_text_grid_from_segmentation(segmentation, text_name, output_folder, xm
     tg.write(os.path.join(output_folder, f"automatic_{text_name}.TextGrid"))
 
 
-def evaluate_for_single_file(wav_folder, output_folder, wav_file, threshold, calculate_threshold_dynamically):
+def evaluate_for_single_file(
+        wav_folder,
+        output_folder,
+        wav_file,
+        threshold,
+        calculate_threshold_dynamically,
+        regularize_with=0
+):
     window_width_size = 0.025
     windows_offset_size = 0.01
     frequency, signal = wavfile.read(os.path.join(wav_folder, wav_file))
@@ -64,7 +73,8 @@ def evaluate_for_single_file(wav_folder, output_folder, wav_file, threshold, cal
     if calculate_threshold_dynamically:
         threshold = kmeans_first_and_last_second_minimum(
             energy_bins,
-            int(1/windows_offset_size)
+            int(1/windows_offset_size),
+            regularize_with=regularize_with
         )
         print(f"Calculated threshold, {threshold}")
     segmentation = silence_segmentation_for_energy_bins(
@@ -80,13 +90,16 @@ def evaluate_for_single_file(wav_folder, output_folder, wav_file, threshold, cal
         xmax=signal.shape[-1] / frequency,
         audio_frequency=frequency
     )
+    return segmentation, threshold
 
 
 def create_automatic_segmentation(wav_folder, output_folder, threshold_param=0.15):
-
+    calculate_threshold_dynamically = False
+    thresholds = list()
     if threshold_param == "dynamic":
         LOGGER.info("dynamic using as parameter for threshold")
         threshold = 0.15
+        calculate_threshold_dynamically = True
     else:
         try:
             threshold = float(threshold_param)
@@ -97,14 +110,24 @@ def create_automatic_segmentation(wav_folder, output_folder, threshold_param=0.1
 
     for wav_file in os.listdir(wav_folder):
         try:
-            evaluate_for_single_file(wav_folder, output_folder, wav_file, threshold, threshold_param == "dynamic")
+            segmentation, threshold = evaluate_for_single_file(
+                wav_folder,
+                output_folder,
+                wav_file,
+                threshold,
+                calculate_threshold_dynamically
+            )
+            thresholds.append(threshold)
+
         except ValueError as e:
             LOGGER.error(e)
+    if calculate_threshold_dynamically:
+        np.savetxt(os.path.join(output_folder, "thresholds.txt"), np.asarray(thresholds), delimiter=",")
 
 
 if __name__ == "__main__":
     if len(sys.argv) == 5:
-        evaluate_for_single_file(sys.argv[1], sys.argv[2], sys.argv[4], sys.argv[3], True)
+        evaluate_for_single_file(sys.argv[1], sys.argv[2], sys.argv[4], sys.argv[3], True,)
         exit(0)
     if len(sys.argv) != 4:
         LOGGER.error("Only 3 arg accepted")
