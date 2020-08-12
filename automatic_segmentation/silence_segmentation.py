@@ -71,16 +71,18 @@ def evaluate_for_single_file(
     )
     print(f"Desired threshold, {threshold}")
     if calculate_threshold_dynamically:
-        threshold = kmeans_first_and_last_second_minimum(
+        calculated_threshold = kmeans_first_and_last_second_minimum(
             energy_bins,
             int(1/windows_offset_size),
             regularize_with=regularize_with
         )
-        print(f"Calculated threshold, {threshold}")
+        print(f"Calculated threshold, {calculated_threshold}")
+    else:
+        calculated_threshold = threshold
     segmentation = silence_segmentation_for_energy_bins(
         energy_bins,
         frequency,
-        threshold,
+        calculated_threshold,
         segmentator=skip_adjacent_segmentator,
     )
     write_text_grid_from_segmentation(
@@ -95,11 +97,13 @@ def evaluate_for_single_file(
 
 def create_automatic_segmentation(wav_folder, output_folder, threshold_param=0.15):
     calculate_threshold_dynamically = False
+    regularize_with = 0
     thresholds = list()
     if threshold_param == "dynamic":
         LOGGER.info("dynamic using as parameter for threshold")
         threshold = 0.15
         calculate_threshold_dynamically = True
+        regularize_with = 0.01
     else:
         try:
             threshold = float(threshold_param)
@@ -115,7 +119,8 @@ def create_automatic_segmentation(wav_folder, output_folder, threshold_param=0.1
                 output_folder,
                 wav_file,
                 threshold,
-                calculate_threshold_dynamically
+                calculate_threshold_dynamically,
+                regularize_with
             )
             thresholds.append(threshold)
 

@@ -1,0 +1,8 @@
+Results
+silences_out = 0
+silence_only_in_automatic = 31  # False Positives
+silence_in_both = 136  # True Positives
+excluded_silences = 2  # False negatives
+total_automatic_silences = 167
+total_spoken_segments = 138
+(silence_in_both / total_spoken_segments) * 100 = 98.55072463768117

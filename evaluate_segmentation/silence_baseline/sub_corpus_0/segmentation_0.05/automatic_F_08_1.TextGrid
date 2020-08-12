@@ -1,0 +1,222 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 89.07755102040817
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "F_08_1"
+        xmin = 0
+        xmax = 89.07755102040817
+        intervals: size = 52
+            intervals [1]:
+                xmin = 0.0
+                xmax = 3.42
+                text = ""
+            intervals [2]:
+                xmin = 3.42
+                xmax = 5.02
+                text = "sil"
+            intervals [3]:
+                xmin = 5.02
+                xmax = 6.67
+                text = ""
+            intervals [4]:
+                xmin = 6.67
+                xmax = 7.8
+                text = "sil"
+            intervals [5]:
+                xmin = 7.8
+                xmax = 11.08
+                text = ""
+            intervals [6]:
+                xmin = 11.08
+                xmax = 12.17
+                text = "sil"
+            intervals [7]:
+                xmin = 12.17
+                xmax = 16.59
+                text = ""
+            intervals [8]:
+                xmin = 16.59
+                xmax = 18.5
+                text = "sil"
+            intervals [9]:
+                xmin = 18.5
+                xmax = 19.82
+                text = ""
+            intervals [10]:
+                xmin = 19.82
+                xmax = 22.59
+                text = "sil"
+            intervals [11]:
+                xmin = 22.59
+                xmax = 23.38
+                text = ""
+            intervals [12]:
+                xmin = 23.38
+                xmax = 23.94
+                text = "sil"
+            intervals [13]:
+                xmin = 23.94
+                xmax = 24.13
+                text = ""
+            intervals [14]:
+                xmin = 24.13
+                xmax = 26.15
+                text = "sil"
+            intervals [15]:
+                xmin = 26.15
+                xmax = 28.7
+                text = ""
+            intervals [16]:
+                xmin = 28.7
+                xmax = 30.06
+                text = "sil"
+            intervals [17]:
+                xmin = 30.06
+                xmax = 31.11
+                text = ""
+            intervals [18]:
+                xmin = 31.11
+                xmax = 31.72
+                text = "sil"
+            intervals [19]:
+                xmin = 31.72
+                xmax = 33.33
+                text = ""
+            intervals [20]:
+                xmin = 33.33
+                xmax = 34.46
+                text = "sil"
+            intervals [21]:
+                xmin = 34.46
+                xmax = 38.23
+                text = ""
+            intervals [22]:
+                xmin = 38.23
+                xmax = 40.05
+                text = "sil"
+            intervals [23]:
+                xmin = 40.05
+                xmax = 42.89
+                text = ""
+            intervals [24]:
+                xmin = 42.89
+                xmax = 43.91
+                text = "sil"
+            intervals [25]:
+                xmin = 43.91
+                xmax = 46.17
+                text = ""
+            intervals [26]:
+                xmin = 46.17
+                xmax = 47.68
+                text = "sil"
+            intervals [27]:
+                xmin = 47.68
+                xmax = 50.09
+                text = ""
+            intervals [28]:
+                xmin = 50.09
+                xmax = 51.01
+                text = "sil"
+            intervals [29]:
+                xmin = 51.01
+                xmax = 52.96
+                text = ""
+            intervals [30]:
+                xmin = 52.96
+                xmax = 54.77
+                text = "sil"
+            intervals [31]:
+                xmin = 54.77
+                xmax = 57.2
+                text = ""
+            intervals [32]:
+                xmin = 57.2
+                xmax = 57.98
+                text = "sil"
+            intervals [33]:
+                xmin = 57.98
+                xmax = 59.55
+                text = ""
+            intervals [34]:
+                xmin = 59.55
+                xmax = 61.25
+                text = "sil"
+            intervals [35]:
+                xmin = 61.25
+                xmax = 63.36
+                text = ""
+            intervals [36]:
+                xmin = 63.36
+                xmax = 64.69
+                text = "sil"
+            intervals [37]:
+                xmin = 64.69
+                xmax = 65.12
+                text = ""
+            intervals [38]:
+                xmin = 65.12
+                xmax = 65.87
+                text = "sil"
+            intervals [39]:
+                xmin = 65.87
+                xmax = 67.42
+                text = ""
+            intervals [40]:
+                xmin = 67.42
+                xmax = 68.51
+                text = "sil"
+            intervals [41]:
+                xmin = 68.51
+                xmax = 69.68
+                text = ""
+            intervals [42]:
+                xmin = 69.68
+                xmax = 71.23
+                text = "sil"
+            intervals [43]:
+                xmin = 71.23
+                xmax = 74.51
+                text = ""
+            intervals [44]:
+                xmin = 74.51
+                xmax = 77.02
+                text = "sil"
+            intervals [45]:
+                xmin = 77.02
+                xmax = 77.41
+                text = ""
+            intervals [46]:
+                xmin = 77.41
+                xmax = 78.14
+                text = "sil"
+            intervals [47]:
+                xmin = 78.14
+                xmax = 78.87
+                text = ""
+            intervals [48]:
+                xmin = 78.87
+                xmax = 79.41
+                text = "sil"
+            intervals [49]:
+                xmin = 79.41
+                xmax = 79.51
+                text = ""
+            intervals [50]:
+                xmin = 79.51
+                xmax = 81.35
+                text = "sil"
+            intervals [51]:
+                xmin = 81.35
+                xmax = 82.07
+                text = ""
+            intervals [52]:
+                xmin = 82.07
+                xmax = 82.62
+                text = "sil"

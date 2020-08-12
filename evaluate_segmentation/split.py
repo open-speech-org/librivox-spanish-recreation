@@ -25,6 +25,7 @@ def split_manually(
         num_corpus=5,
         folder_prefix="sub_corpus_{}"
 ):
+    random.seed(42)
     larger_than_threshold_recordings = dict()
     smaller_than_threshold_recordings = dict()
     for annotation_file in os.listdir(tokenized_folder):
@@ -45,8 +46,15 @@ def split_manually(
         os.makedirs(folder_name, exist_ok=True)
         os.makedirs(wav_folder_name, exist_ok=True)
         os.makedirs(annotations_folder_name, exist_ok=True)
-        random_smaller_recordings = random.choices(list(smaller_than_threshold_recordings.keys()), k=15)
-        LOGGER.info("Smaller chosen: %s" % ",".join(random_smaller_recordings))
+        smaller_list = list(smaller_than_threshold_recordings.keys())
+        random_smaller_recordings = random.choices(smaller_list, k=15)
+        LOGGER.info(
+            "Smaller chosen %d, %d : %s" % (
+                len(smaller_list),
+                len(random_smaller_recordings),
+                ",".join(random_smaller_recordings)
+            )
+        )
         for smaller_name in random_smaller_recordings:
             with open(os.path.join(folder_name, smaller_name), "w+") as current_file:
                 current_file.writelines(smaller_than_threshold_recordings[smaller_name])
@@ -64,9 +72,15 @@ def split_manually(
                 shutil.copy2(original_annotations_file_path, os.path.join(annotations_folder_name, annotations_name))
             else:
                 LOGGER.error("%s does not exists" % original_wav_file_path)
-
-        random_larger_recordings = random.choices(list(larger_than_threshold_recordings.keys()), k=5)
-        LOGGER.info("Larger chosen: %s" % ",".join(larger_than_threshold_recordings))
+        larger_list = list(larger_than_threshold_recordings.keys())
+        random_larger_recordings = random.choices(larger_list, k=5)
+        LOGGER.info(
+            "Larger chosen %d, %d : %s" % (
+                len(larger_list),
+                len(random_larger_recordings),
+                ",".join(random_larger_recordings)
+            )
+        )
         for larger_name in random_larger_recordings:
             with open(os.path.join(folder_name, larger_name), "w+") as current_file:
                 current_file.writelines(larger_than_threshold_recordings[larger_name])
