@@ -1,0 +1,8 @@
+Results
+silences_out = 82
+silence_only_in_automatic = 363
+silence_in_both = 547
+total_automatic_silences = 992
+total_spoken_segments = 771
+(silence_in_both / total_spoken_segments) * 100 = 70.94682230869002 
+    
