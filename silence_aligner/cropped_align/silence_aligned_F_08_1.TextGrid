@@ -1,0 +1,70 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 46.81
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "F_08_1"
+        xmin = 0
+        xmax = 46.81
+        intervals: size = 14
+            intervals [1]:
+                xmin = 0.0
+                xmax = 4.3
+                text = " En segura pobreza vive Eumelo"
+            intervals [2]:
+                xmin = 5.65
+                xmax = 6.69
+                text = " Con dulce libertad"
+            intervals [3]:
+                xmin = 7.3
+                xmax = 8.91
+                text = " y le mantienen"
+            intervals [4]:
+                xmin = 10.04
+                xmax = 13.81
+                text = " Las simples aves"
+            intervals [5]:
+                xmin = 15.63
+                xmax = 18.48
+                text = " que engañadas vienen"
+            intervals [6]:
+                xmin = 19.49
+                xmax = 21.75
+                text = " A los lazos y liga sin recelo"
+            intervals [7]:
+                xmin = 23.26
+                xmax = 25.67
+                text = " Por mejor suerte no importuna al cielo"
+            intervals [8]:
+                xmin = 26.59
+                xmax = 28.54
+                text = " Ni se muestra envidioso a la que tienen"
+            intervals [9]:
+                xmin = 30.35
+                xmax = 32.78
+                text = " Los que con ansia de subir sostienen"
+            intervals [10]:
+                xmin = 33.56
+                xmax = 35.14
+                text = " En flacas alas el incierto vuelo"
+            intervals [11]:
+                xmin = 36.83
+                xmax = 38.94
+                text = " Muerte tras luengos años no le espanta"
+            intervals [12]:
+                xmin = 40.27
+                xmax = 40.7
+                text = " Ni la recibe con indigna queja"
+            intervals [13]:
+                xmin = 41.45
+                xmax = 43.0
+                text = " Mas con sosiego grato y faz amiga"
+            intervals [14]:
+                xmin = 44.09
+                xmax = 45.26
+                text = " Al fin"

@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 3.42
+xmax = 82.62
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "F_08_1"
+        xmin = 3.42
+        xmax = 82.62
+        intervals: size = 21
+            intervals [1]:
+                xmin = 0.0
+                xmax = 3.42
+                text = "Soneto"
+            intervals [2]:
+                xmin = 5.02
+                xmax = 6.67
+                text = " En segura pobreza vive Eumelo"
+            intervals [3]:
+                xmin = 7.8
+                xmax = 11.08
+                text = " Con dulce libertad"
+            intervals [4]:
+                xmin = 12.17
+                xmax = 16.59
+                text = " y le mantienen"
+            intervals [5]:
+                xmin = 18.5
+                xmax = 19.82
+                text = " Las simples aves"
+            intervals [6]:
+                xmin = 22.59
+                xmax = 23.38
+                text = " que engañadas vienen"
+            intervals [7]:
+                xmin = 23.94
+                xmax = 24.13
+                text = " A los lazos y liga sin recelo"
+            intervals [8]:
+                xmin = 26.15
+                xmax = 28.7
+                text = " Por mejor suerte no importuna al cielo"
+            intervals [9]:
+                xmin = 30.06
+                xmax = 31.11
+                text = " Ni se muestra envidioso a la que tienen"
+            intervals [10]:
+                xmin = 31.72
+                xmax = 33.33
+                text = " Los que con ansia de subir sostienen"
+            intervals [11]:
+                xmin = 34.46
+                xmax = 38.23
+                text = " En flacas alas el incierto vuelo"
+            intervals [12]:
+                xmin = 40.05
+                xmax = 42.89
+                text = " Muerte tras luengos años no le espanta"
+            intervals [13]:
+                xmin = 43.91
+                xmax = 46.17
+                text = " Ni la recibe con indigna queja"
+            intervals [14]:
+                xmin = 47.68
+                xmax = 50.09
+                text = " Mas con sosiego grato y faz amiga"
+            intervals [15]:
+                xmin = 51.01
+                xmax = 52.96
+                text = " Al fin"
+            intervals [16]:
+                xmin = 54.77
+                xmax = 57.2
+                text = " muriendo con pobreza tanta"
+            intervals [17]:
+                xmin = 57.98
+                xmax = 59.55
+                text = " Ricos juzga sus hijos"
+            intervals [18]:
+                xmin = 61.25
+                xmax = 63.36
+                text = " pues les deja"
+            intervals [19]:
+                xmin = 64.69
+                xmax = 65.12
+                text = " La libertad"
+            intervals [20]:
+                xmin = 65.87
+                xmax = 67.42
+                text = " las aves y la liga"
+            intervals [21]:
+                xmin = 68.51
+                xmax = 69.68
+                text = " ♥"

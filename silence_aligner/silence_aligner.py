@@ -1,9 +1,11 @@
 """
 Usage:
 
-python silence_baseline/silence_baseline.py fixed_annotations automatic_segmentation/segmentation silence_baseline/results F_08_1.TextGrid
+python silence_aligner/silence_aligner.py original_text transformed_audios silence_aligner/silly_align F_08_1
+python silence_aligner/silence_aligner.py original_text transformed_audios_drop silence_aligner/cropped_align F_08_1
 """
 import os
+import re
 import sys
 
 import logging
@@ -11,6 +13,18 @@ import logging
 import numpy as np
 import textgrids
 
+from scipy.io import wavfile
+
+from openspeechlib.segmentation.silence_segmentation import (
+    skip_adjacent_segmentator,
+    silence_segmentation_for_energy_bins,
+    transform_signal_into_energy_bins,
+)
+from openspeechlib.segmentation.dynamic_threshold import kmeans_first_and_last_second_minimum
+
+# from scripts.tokenize_texts import sent_tokenize
+def sent_tokenize(text):
+    return [x for x in re.split("\.|,|;|:|\n|!|¿|¡|\?|-|—|\(|\)|«|»", text) if x.replace(" ", "")]
 
 LOGGER = logging.getLogger(__name__)
 
@@ -18,104 +32,90 @@ LOGGER = logging.getLogger(__name__)
 CONSTANT_SIL = "sil"
 
 
-def evaluate_single_file(manual_folder, automatic_folder, results_folder, file_name):
+def extract_segments_from_file(
+        wav_file,
+        threshold=0.05,
+        calculate_threshold_dynamically=False,
+        regularize_with=0
+):
+    window_width_size = 0.025
+    windows_offset_size = 0.01
+    frequency, signal = wavfile.read(wav_file)
+    LOGGER.debug(f"Processing {wav_file}: frequency: {frequency}")
+    if len(signal.shape) > 1:
+        signal = signal[0]
+    energy_bins = transform_signal_into_energy_bins(
+        signal,
+        frequency,
+        window_width_size=window_width_size,
+        windows_offset_size=windows_offset_size,
+    )
+    print(f"Desired threshold, {threshold}")
+    if calculate_threshold_dynamically:
+        calculated_threshold = kmeans_first_and_last_second_minimum(
+            energy_bins,
+            int(1/windows_offset_size),
+            regularize_with=regularize_with
+        )
+        print(f"Calculated threshold, {calculated_threshold}")
+    else:
+        calculated_threshold = threshold
+    return silence_segmentation_for_energy_bins(
+        energy_bins,
+        frequency,
+        calculated_threshold,
+        segmentator=skip_adjacent_segmentator,
+    ), frequency
+
+
+def evaluate_single_file(text_folder, wav_folder, results_folder, file_name):
     LOGGER.debug(f"Processing {file_name}")
-    manual_file = textgrids.TextGrid(os.path.join(manual_folder, file_name))
-    automatic_file = textgrids.TextGrid(os.path.join(automatic_folder, f"automatic_{file_name}"))
-    base_name = file_name.replace(".TextGrid", "")
-    manual_intervals = manual_file[base_name]
-    automatic_intervals = automatic_file[base_name]
-
-    silences_out = 0
-    silence_only_in_automatic = 0
-    silence_in_both = 0
-    total_automatic_silences = 0
-    total_spoken_segments = 0
-    manual_iterator = iter(manual_intervals)
-    current_manual_interval = next(manual_iterator)
-    for automatic_interval in automatic_intervals:
-        if not automatic_interval.text:
-            continue
-
-        if automatic_interval.text.strip() == CONSTANT_SIL:
-            if automatic_interval.xmin > current_manual_interval.xmax:
-                current_manual_interval = next(manual_iterator)
-
-            total_automatic_silences += 1
-            if automatic_interval.xmin < current_manual_interval.xmax < automatic_interval.xmax:
-                silence_in_both += 1
-                current_manual_interval = next(manual_iterator)
-                if current_manual_interval.text.strip():
-                    total_spoken_segments += 1
-            else:
-                if not current_manual_interval.text.strip():
-                    silences_out += 1
-                else:
-                    silence_only_in_automatic += 1
-            if current_manual_interval.xmax < automatic_interval.xmax:
-                current_manual_interval = next(manual_iterator)
-                if current_manual_interval.text.strip():
-                    total_spoken_segments += 1
-    results = f"""Results
-silences_out = {silences_out}
-silence_only_in_automatic = {silence_only_in_automatic}  # False Positives
-silence_in_both = {silence_in_both}  # True Positives
-excluded_silences = {total_spoken_segments - silence_in_both}  # False negatives
-total_automatic_silences = {total_automatic_silences}
-total_spoken_segments = {total_spoken_segments}
-(silence_in_both / total_spoken_segments) * 100 = {(silence_in_both / (total_spoken_segments or 1)) * 100 }
-"""
-    results_file = open(os.path.join(results_folder, f"{base_name}.results"), "w+")
-    results_file.write(results)
-    results_file.close()
-
-    return silences_out, silence_only_in_automatic, silence_in_both, total_automatic_silences, total_spoken_segments
+    text = " ".join(open(os.path.join(text_folder, f"{file_name}.txt"), 'r').readlines())
+    tokenized_text = sent_tokenize(text)
+    tokenized_text = tokenized_text[1:]
+    segments, audio_frequency = extract_segments_from_file(os.path.join(wav_folder, f"{file_name}.wav"))
+    min_length = min(len(tokenized_text), len(segments))
+    tg = textgrids.TextGrid()
+    tg.xmin = 0
+    tg.xmax = segments[-1][1] / audio_frequency
+    tier = textgrids.Tier()
+    tg[file_name] = tier
+    previous_segment = 0
+    for i in range(min_length):
+        xmin, xmax = segments[i]
+        tier.append(
+            textgrids.Interval(
+                tokenized_text[i],
+                previous_segment / audio_frequency,
+                xmin / audio_frequency
+            )
+        )
+        previous_segment = xmax
+    tg.write(os.path.join(results_folder, f"silence_aligned_{file_name}.TextGrid"))
 
 
-def evaluate_folder(manual_folder, automatic_folder, results_folder):
-    total_silences_out = 0
-    total_silence_only_in_automatic = 0
-    total_silence_in_both = 0
-    total_total_automatic_silences = 0
-    total_total_spoken_segments = 0
-    precisions = list()
-    for file_name in os.listdir(manual_folder):
+def evaluate_folder(text_folder, wav_folder, results_folder):
+
+    for file_name in os.listdir(text_folder):
         try:
-            silences_out, silence_only_in_automatic, silence_in_both, total_automatic_silences, total_spoken_segments = evaluate_single_file(manual_folder, automatic_folder, results_folder, file_name)
-            if sum((silences_out, silence_only_in_automatic, silence_in_both, total_automatic_silences, total_spoken_segments)) > 0:
-                total_silences_out += silences_out
-                total_silence_only_in_automatic += silence_only_in_automatic
-                total_silence_in_both += silence_in_both
-                total_total_automatic_silences += total_automatic_silences
-                total_total_spoken_segments += total_spoken_segments
-                precisions.append((silence_in_both / (total_spoken_segments or 1)) * 100)
+            evaluate_single_file(text_folder, wav_folder, results_folder, file_name.replace(".txt", ""))
         except FileNotFoundError as e:
             LOGGER.error(e)
-    results = f"""Results
-silences_out = {total_silences_out}
-silence_only_in_automatic = {total_silence_only_in_automatic}
-silence_in_both = {total_silence_in_both}
-total_automatic_silences = {total_total_automatic_silences}
-total_spoken_segments = {total_total_spoken_segments}
-(silence_in_both / total_spoken_segments) * 100 = {(total_silence_in_both / total_total_spoken_segments) * 100} 
-    """
-    results_file = open(os.path.join(results_folder, f"global.results"), "w+")
-    results_file.write(results)
-    results_file.close()
 
-    np.savetxt(os.path.join(results_folder, "precisions.txt"), np.asarray(precisions), delimiter=",")
 
 
 
 if __name__ == "__main__":
-    print(sys.argv)
+    console_log = logging.StreamHandler()
+    LOGGER.addHandler(console_log)
+    LOGGER.setLevel(logging.DEBUG)
+    LOGGER.info(sys.argv)
     if len(sys.argv) == 5:
+        LOGGER.info("Evaluating for single file")
         evaluate_single_file(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
         exit(0)
     if len(sys.argv) != 4:
         LOGGER.error("Only 3 arg accepted")
         exit(1)
-    console_log = logging.StreamHandler()
-    LOGGER.addHandler(console_log)
-    LOGGER.setLevel(logging.DEBUG)
+
     evaluate_folder(sys.argv[1], sys.argv[2], sys.argv[3])
