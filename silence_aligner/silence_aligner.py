@@ -2,7 +2,7 @@
 Usage:
 
 python silence_aligner/silence_aligner.py original_text transformed_audios silence_aligner/silly_align F_08_1
-python silence_aligner/silence_aligner.py original_text transformed_audios_drop silence_aligner/cropped_align F_08_1
+python silence_aligner/silence_aligner.py original_text transformed_audios_cropped silence_aligner/cropped_align F_08_1
 """
 import os
 import re
@@ -101,8 +101,6 @@ def evaluate_folder(text_folder, wav_folder, results_folder):
             evaluate_single_file(text_folder, wav_folder, results_folder, file_name.replace(".txt", ""))
         except FileNotFoundError as e:
             LOGGER.error(e)
-
-
 
 
 if __name__ == "__main__":

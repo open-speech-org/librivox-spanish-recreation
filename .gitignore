@@ -7,7 +7,7 @@ corpus_info/.~lock.corpus_info_formatted_sorted.csv#
 
 original_audios
 transformed_audios
-transformed_audios_drop
+transformed_audios_cropped
 
 pseudo_fixed_annotations
 
