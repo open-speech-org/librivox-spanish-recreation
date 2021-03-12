@@ -1,5 +1,6 @@
 """
 python scripts/crop_audios.py transformed_audios fixed_annotations transformed_audios_cropped
+cd transformed_audios_cropped && rm *.wav && cd ..
 """
 import logging
 
@@ -26,10 +27,10 @@ def create_text_files(wav_folder, transcription_folder, output_folder):
                 if interval.text == "1":
                     initial_second = interval.xmin
                 if interval.text == "" and initial_second > -1:
-                    end_second = interval.xmax
+                    end_second = interval.xmin
                     break
             cropped_signal = signal[int(initial_second * frequency):int(end_second * frequency)]
-            output_path = os.path.join(output_folder, f"cropped_{file_name}.wav")
+            output_path = os.path.join(output_folder, f"{file_name}.wav")
             LOGGER.info(f"Saving cropped file in {output_path}")
             wavfile.write(output_path, frequency, cropped_signal)
 
