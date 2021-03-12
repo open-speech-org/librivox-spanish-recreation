@@ -1,5 +1,5 @@
 0:El parásito del tren
-1:Si 
+1:Si
 2:dijo el amigo Pérez a todos sus contertulios de café
 3: en este periódico acabo de leer la noticia de la muerte de un amigo
 4: Sólo lo vi una vez
@@ -119,7 +119,7 @@
 118:Yo también llevo billete
 119: señorito
 120: Lo miré y no pude menos de echarme a reír
-121:Pero 
+121:Pero
 122:si es antiguo
 123:le dije
 124: Ya hace años que sirvió
@@ -133,11 +133,11 @@
 132: acaba de subir
 133: Siéntate dentro y cierra la portezuela
 134:No
-135: señor 
+135: señor
 136:dijo con entereza
 137: Yo no tengo derecho a ir dentro
 138: como un señorito
-139: Aquí 
+139: Aquí
 140: y gracias
 141: pues no tengo dinero
 142: Y con la firmeza de un testarudo se mantuvo en su puesto
@@ -167,7 +167,7 @@
 166: y volvía a subir después de la salida
 167: siempre mudando de sitio para evitar la vigilancia de los empleados
 168: unas malas almas enemigas de los pobres
-169:Pero 
+169:Pero
 170:adónde vas
 171:le dije
 172:Por qué haces este viaje
@@ -194,8 +194,8 @@
 193: le reconocía
 194: y
 195: al verle entrar tendiale los brazos al cuello
-196:Pero 
-197:tú 
+196:Pero
+197:tú
 198:le dije
 199: no piensas que en cualquiera de estos viajes tus hijos van a quedarse sin padre
 200: Él sonreía con confianza
@@ -236,7 +236,7 @@
 235: pero él no se quejaba
 236: Aquellos señores tenían razón para asustarse y defenderse
 237: Comprendía que era merecedor de aquello y algo más
-238: pero 
+238: pero
 239:qué remedio
 240: si no tenia dinero y deseaba ver a sus hijos
 241: El tren iba limitando su marcha
@@ -244,13 +244,13 @@
 243: Él
 244: alarmado
 245: comenzó a incorporarse
-246:Quédate 
+246:Quédate
 247:le dije
 248: Aún falta otra estación para llegar a donde tú vas
 249: Te pagaré el billete
 250:Quia
 251: No
-252: señor 
+252: señor
 253:repuso con candidez maliciosa
 254: El empleado
 255: al dar el billete
@@ -303,7 +303,7 @@
 302: algunos de los cuales reían
 303:Qué es eso
 304:pregunté al empleado
-305:Un tuno que tiene la costumbre de viajar sin billete 
+305:Un tuno que tiene la costumbre de viajar sin billete
 306:me contestó con énfasis
 307: Ya le conocemos hace tiempo
 308: Es un parásito del tren
@@ -332,7 +332,7 @@
 331: asustado por su repentina aparición
 332: fué menos compasivo que yo y le arrojó bajo las ruedas
 333:Vaya usted a preguntar a la noche lo que pasaría
-334:Desde que le conocí 
+334:Desde que le conocí
 335:terminó diciendo el amigo Pérez
 336: han pasado cuatro años
 337: En este tiempo he corrido mucho
@@ -342,5 +342,5 @@
 341: que
 342: separado de su familia por la miseria
 343: cuando quería besar a sus hijos
-344: tenía que verse perseguido y acosado como alimaña feroz y desafiar la muerte con la serenidad de un héroe
+344: tenía que verse    perseguido y acosado como alimaña feroz y desafiar la muerte con la serenidad de un héroe
 345: FIN
